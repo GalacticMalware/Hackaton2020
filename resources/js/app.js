@@ -5,6 +5,7 @@ require('./bootstrap');
 import Vue from 'vue'
 import Vuetify from 'vuetify/'
 import Routers from './Route'
+import Chart from 'chart.js';
 
 Vue.use(Vuetify)
 

@@ -5,12 +5,18 @@ import Contactanos from './components/Informativo/Contactanos';
 import Directorio from './components/Informativo/Directorio'
 import AcercaDe from './components/Informativo/AcercaDe'
 import Inicio from './components/Inicio'
+import Violentrometro from './components/Informativo/Violentrometro'
 
 
 Vue.use(Router)
 
 export default new Router({
     routes: [
+        {
+            path: '/Violentrometro',
+            name: 'Violentrometro',
+            component: Violentrometro
+        },
         {
             path: '/AcercaDe',
             name: 'acercade',

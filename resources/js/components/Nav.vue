@@ -50,9 +50,6 @@
                     </v-layout>
                 </v-layout>
             </v-toolbar>
-             <br />
-        <br />
-        <br />
   </v-flex>
     </div>
 

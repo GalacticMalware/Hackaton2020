@@ -1,6 +1,36 @@
 <template>
     <div>
-    <v-img width="626" height="352" style="width:100%; height:auto;" :src="'/img/ImagenInicial.jpg'"></v-img>
+     <v-layout justify-center class="hidden-sm-and-up">
+    <br />
+        <br />
+        <br />
+         </v-layout>
+    <v-img width="626" height="352" style="width:100%; height:auto;" :src="'/img/Propo.jpg'"></v-img>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <v-jumbotron>
+    <v-container fill-height>
+      <v-layout align-center>
+        <v-flex>
+            <center>
+          <h3 class="display-3">¿Sabes lo que es un violentómetro?</h3>
+            <br />
+            <br />
+          <span class="subheading">El Violentómetro es una herramienta de gran utilidad la cual permite a hombres y mujeres estar alerta, capacitadas (os) y/o atentas (os) para detectar y atender la violencia en cualquiera de sus tipos y modalidades a través de diferentes manifestaciones, resultando no solo benéfico para las instituciones educativas, sino también en los ámbitos familiar (relaciones de pareja) y laboral.</span>
+            
+            </center>
+          <v-divider class="my-3"></v-divider>
+            <center>
+          <div class="title mb-3">Ve los nievesl del Violentómetro</div>
+            </center>
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </v-jumbotron>
+  <Violentrometro></Violentrometro>
      <v-flex xs sm md lg xl class="hidden-xs-only">
         <v-card>        
             <v-card-text>
@@ -132,16 +162,52 @@
  </v-flex> 
  <!--Sin hover-->
  <v-layout justify-center class="hidden-sm-and-up">
-            <v-flex xs11>
-            <v-img
-                              :aspect-ratio="16/9"
-                              width="626" height="352" style="width:100%; height:auto;"
-                              :src="'/img/Imagen2.jpg'"
-                            >
-                            </v-img>
-                            </v-flex>
-                            </v-layout>
-                  
+    <v-flex xs11>
+    <v-img
+      :aspect-ratio="16/9"
+      width="626" height="352" style="width:100%; height:auto;"
+      :src="'/img/Imagen2.jpg'"
+    >
+    </v-img>
+    </v-flex>
+</v-layout>
+<v-layout justify-center class="hidden-sm-and-up">
+    <v-flex xs11>
+    <v-img
+      :aspect-ratio="16/9"
+      width="626" height="352" style="width:100%; height:auto;"
+      :src="'/img/Imagen3.jpg'"
+    >
+    </v-img>
+    </v-flex>
+</v-layout>
+<v-layout justify-center class="hidden-sm-and-up">
+    <v-flex xs11>
+    <v-img
+      :aspect-ratio="16/9"
+      width="626" height="352" style="width:100%; height:auto;"
+      :src="'/img/Imagen4.jpg'"
+    >
+    </v-img>
+    </v-flex>
+</v-layout>
+<v-layout justify-center class="hidden-sm-and-up">
+    <v-flex xs11>
+    <v-img
+      :aspect-ratio="16/9"
+      width="626" height="352" style="width:100%; height:auto;"
+      :src="'/img/Imagen5.jpg'"
+    >
+    </v-img>
+    </v-flex>
+</v-layout>
+
+<br />
+<br />
+<br />
+
+
+
         <v-dialog
                 v-model="EncuestaActivar"
                 max-width="1000px"
@@ -152,7 +218,7 @@
                 scrollable
               >
               <v-card>
-              <v-toolbar card dark color="teal">
+              <v-toolbar card dark color="#ff6666">
                       <v-btn icon dark @click="EncuestaActivar = false">
                         <v-icon>close</v-icon>
                       </v-btn>
@@ -161,9 +227,7 @@
                       </v-toolbar-title>
                       <v-spacer></v-spacer>
                     </v-toolbar>
-                     
     <Encuesta></Encuesta>
-
                     </v-card>
                     
               </v-dialog>
@@ -173,8 +237,9 @@
 </template>
 <script>
     import Encuesta from "./Encuesta"
+    import Violentrometro from './Informativo/Violentrometro'
 export default {
-    components:{Encuesta},
+    components:{Encuesta,Violentrometro},
     mounted() {
         console.log("Import");
     },
