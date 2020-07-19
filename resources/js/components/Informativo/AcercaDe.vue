@@ -1,5 +1,10 @@
-
   <template>
+<div>
+<v-flex class="hidden-sm-and-up">
+<br />
+            <br />
+            <br />
+            </v-flex>
   <v-timeline>
     <v-timeline-item
       color="red lighten-2"
@@ -44,13 +49,9 @@
       </v-card>
     </v-timeline-item>
   </v-timeline>
+  <br />
+  <br />
+  <br />
+</div>
 </template>
 
-
-<script>
-export default {
-  mounted() {
-        console.log("Quienes somos");
-    }
-};
-</script>
