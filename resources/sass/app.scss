@@ -1,0 +1,35 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons");
+
+@import "~vuetify/dist/vuetify.min.css";
+
+// Variables
+@import "variables";
+
+/*.p {
+    background-color: rgba(255,255,255,.8);
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    padding: 5px;
+    width: 100%;
+  }
+a.{
+          background-position: center center;
+      background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+       background-color:#464646;
+      
+      }
+     /* @media only screen and (max-width: 767px) {
+    img {
+      /* The file size of this background image is 93% smaller
+       * to improve page load speed on mobile internet connections */
+      /*background-image: url(https://image.freepik.com/foto-gratis/joven-mujer-hermosa-pensando-mirando-lado_23-2147838717.jpg);
+    }
+      }*/
