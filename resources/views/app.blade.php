@@ -6,7 +6,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
   <link rel="shortcut icon" href="{{ asset('img/logo.png') }}">
-  <link rel="shortcut icon" type="image/png" href="/img/logo.png" />
+  <link rel="shortcut icon" type="image/png" href="/img/logo.png"/>
   
     <link rel="manifest" href="/manifest.json"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
