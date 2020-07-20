@@ -26,7 +26,7 @@
       </v-flex>
       <v-flex class="hidden-sm-and-up">
       <br />
-      <font size="3" class="white--text">¿TU PAREJA U OTRA PERSONA A HECHO BROMAS O COMENTARIOS QUE TE HAGA SENTIR INCÓMODA U OFENDIDA?</font>
+      <font size="2" class="white--text">¿TU PAREJA U OTRA PERSONA A HECHO BROMAS O COMENTARIOS QUE TE HAGA SENTIR INCÓMODA U OFENDIDA?</font>
       </v-flex>
       </center>
       </v-card>
@@ -48,7 +48,7 @@
       </v-flex>
       <v-flex class="hidden-sm-and-up">
       <br />
-      <font size="3" class="white--text">¿TU PAREJA U OTRA PERSONA TE A CELADO CONSTANTEMENTE O TE A CULPADO POR ALGO QUE NO HAYAS HECHO?</font>
+      <font size="2" class="white--text">¿TU PAREJA U OTRA PERSONA TE A CELADO CONSTANTEMENTE O TE A CULPADO POR ALGO QUE NO HAYAS HECHO?</font>
       </v-flex>
       </center>
       </v-card>
@@ -69,7 +69,8 @@
       <font size="4" class="white--text">¿TU PAREJA U OTRA PERSONA TE A INTIMIDADO, AMENAZADO O TE HA OBLIGADO A HACER ALGO QUE TU NO QUIERAS HACER ?</font>
       </v-flex>
       <v-flex class="hidden-sm-and-up">
-      <font size="3" class="white--text">¿TU PAREJA U OTRA PERSONA TE A INTIMIDADO, AMENAZADO O TE HA OBLIGADO A HACER ALGO QUE TU NO QUIERAS HACER ?</font>
+      <br />
+      <font size="2" class="white--text">¿TU PAREJA U OTRA PERSONA TE A INTIMIDADO, AMENAZADO O TE HA OBLIGADO A HACER ALGO QUE TU NO QUIERAS HACER ?</font>
       </v-flex>
       </center>
       </v-card>
@@ -90,7 +91,7 @@
       </v-flex>
       <v-flex class="hidden-sm-and-up">
       <br />
-      <font size="3" class="white--text">¿TU PAREJA TE HA MENOSPRECIADO O GOLPEADO Y DICIENDO QUE ES UN JUEGO? </font>
+      <font size="2" class="white--text">¿TU PAREJA TE HA MENOSPRECIADO O GOLPEADO Y DICIENDO QUE ES UN JUEGO? </font>
       </v-flex>
       </center>
       </v-card>
@@ -111,7 +112,7 @@
       </v-flex>
       <v-flex class="hidden-sm-and-up">
       <br />
-      <font size="3" class="white--text">¿TU PAREJA TE HA GOLPEADO, ENCERRADO, AMENAZADO DE MUERTE  O ABUSADO SEXUALMENTE?</font>
+      <font size="2" class="white--text">¿TU PAREJA TE HA GOLPEADO, ENCERRADO, AMENAZADO DE MUERTE  O ABUSADO SEXUALMENTE?</font>
       </v-flex>
       </center>
       </v-card>

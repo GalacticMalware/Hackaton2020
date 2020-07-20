@@ -2187,6 +2187,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -76830,7 +76831,7 @@ var render = function() {
                                   "font",
                                   {
                                     staticClass: "white--text",
-                                    attrs: { size: "3" }
+                                    attrs: { size: "2" }
                                   },
                                   [
                                     _vm._v(
@@ -76945,7 +76946,7 @@ var render = function() {
                                   "font",
                                   {
                                     staticClass: "white--text",
-                                    attrs: { size: "3" }
+                                    attrs: { size: "2" }
                                   },
                                   [
                                     _vm._v(
@@ -77054,11 +77055,13 @@ var render = function() {
                               "v-flex",
                               { staticClass: "hidden-sm-and-up" },
                               [
+                                _c("br"),
+                                _vm._v(" "),
                                 _c(
                                   "font",
                                   {
                                     staticClass: "white--text",
-                                    attrs: { size: "3" }
+                                    attrs: { size: "2" }
                                   },
                                   [
                                     _vm._v(
@@ -77173,7 +77176,7 @@ var render = function() {
                                   "font",
                                   {
                                     staticClass: "white--text",
-                                    attrs: { size: "3" }
+                                    attrs: { size: "2" }
                                   },
                                   [
                                     _vm._v(
@@ -77280,7 +77283,7 @@ var render = function() {
                                   "font",
                                   {
                                     staticClass: "white--text",
-                                    attrs: { size: "3" }
+                                    attrs: { size: "2" }
                                   },
                                   [
                                     _vm._v(
