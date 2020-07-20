@@ -2161,6 +2161,32 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -76770,21 +76796,50 @@ var render = function() {
                         _c(
                           "center",
                           [
-                            _c("br"),
-                            _vm._v(" "),
-                            _c("br"),
+                            _c(
+                              "v-flex",
+                              { staticClass: "hidden-xs-only" },
+                              [
+                                _c("br"),
+                                _vm._v(" "),
+                                _c("br"),
+                                _vm._v(" "),
+                                _c(
+                                  "font",
+                                  {
+                                    staticClass: "white--text",
+                                    attrs: { size: "4" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "¿TU PAREJA U OTRA PERSONA A HECHO BROMAS O COMENTARIOS QUE TE HAGA SENTIR INCÓMODA U OFENDIDA?"
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            ),
                             _vm._v(" "),
                             _c(
-                              "font",
-                              {
-                                staticClass: "white--text",
-                                attrs: { size: "4" }
-                              },
+                              "v-flex",
+                              { staticClass: "hidden-sm-and-up" },
                               [
-                                _vm._v(
-                                  "¿TU PAREJA U OTRA PERSONA A HECHO BROMAS O COMENTARIOS QUE TE HAGA SENTIR INCÓMODA U OFENDIDA?"
+                                _c("br"),
+                                _vm._v(" "),
+                                _c(
+                                  "font",
+                                  {
+                                    staticClass: "white--text",
+                                    attrs: { size: "3" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "¿TU PAREJA U OTRA PERSONA A HECHO BROMAS O COMENTARIOS QUE TE HAGA SENTIR INCÓMODA U OFENDIDA?"
+                                    )
+                                  ]
                                 )
-                              ]
+                              ],
+                              1
                             )
                           ],
                           1
@@ -76856,21 +76911,50 @@ var render = function() {
                         _c(
                           "center",
                           [
-                            _c("br"),
-                            _vm._v(" "),
-                            _c("br"),
+                            _c(
+                              "v-flex",
+                              { staticClass: "hidden-xs-only" },
+                              [
+                                _c("br"),
+                                _vm._v(" "),
+                                _c("br"),
+                                _vm._v(" "),
+                                _c(
+                                  "font",
+                                  {
+                                    staticClass: "white--text",
+                                    attrs: { size: "4" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "¿TU PAREJA U OTRA PERSONA TE A CELADO CONSTANTEMENTE O TE A CULPADO POR ALGO QUE NO HAYAS HECHO?"
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            ),
                             _vm._v(" "),
                             _c(
-                              "font",
-                              {
-                                staticClass: "white--text",
-                                attrs: { size: "4" }
-                              },
+                              "v-flex",
+                              { staticClass: "hidden-sm-and-up" },
                               [
-                                _vm._v(
-                                  "¿TU PAREJA U OTRA PERSONA TE A CELADO CONSTANTEMENTE O TE A CULPADO POR ALGO QUE NO HAYAS HECHO?"
+                                _c("br"),
+                                _vm._v(" "),
+                                _c(
+                                  "font",
+                                  {
+                                    staticClass: "white--text",
+                                    attrs: { size: "3" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "¿TU PAREJA U OTRA PERSONA TE A CELADO CONSTANTEMENTE O TE A CULPADO POR ALGO QUE NO HAYAS HECHO?"
+                                    )
+                                  ]
                                 )
-                              ]
+                              ],
+                              1
                             )
                           ],
                           1
@@ -76942,21 +77026,48 @@ var render = function() {
                         _c(
                           "center",
                           [
-                            _c("br"),
-                            _vm._v(" "),
-                            _c("br"),
+                            _c(
+                              "v-flex",
+                              { staticClass: "hidden-xs-only" },
+                              [
+                                _c("br"),
+                                _vm._v(" "),
+                                _c("br"),
+                                _vm._v(" "),
+                                _c(
+                                  "font",
+                                  {
+                                    staticClass: "white--text",
+                                    attrs: { size: "4" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "¿TU PAREJA U OTRA PERSONA TE A INTIMIDADO, AMENAZADO O TE HA OBLIGADO A HACER ALGO QUE TU NO QUIERAS HACER ?"
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            ),
                             _vm._v(" "),
                             _c(
-                              "font",
-                              {
-                                staticClass: "white--text",
-                                attrs: { size: "4" }
-                              },
+                              "v-flex",
+                              { staticClass: "hidden-sm-and-up" },
                               [
-                                _vm._v(
-                                  "¿TU PAREJA U OTRA PERSONA TE A INTIMIDADO, AMENAZADO O TE HA OBLIGADO A HACER ALGO QUE TU NO QUIERAS HACER ?\r\n      "
+                                _c(
+                                  "font",
+                                  {
+                                    staticClass: "white--text",
+                                    attrs: { size: "3" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "¿TU PAREJA U OTRA PERSONA TE A INTIMIDADO, AMENAZADO O TE HA OBLIGADO A HACER ALGO QUE TU NO QUIERAS HACER ?"
+                                    )
+                                  ]
                                 )
-                              ]
+                              ],
+                              1
                             )
                           ],
                           1
@@ -77028,21 +77139,50 @@ var render = function() {
                         _c(
                           "center",
                           [
-                            _c("br"),
-                            _vm._v(" "),
-                            _c("br"),
+                            _c(
+                              "v-flex",
+                              { staticClass: "hidden-xs-only" },
+                              [
+                                _c("br"),
+                                _vm._v(" "),
+                                _c("br"),
+                                _vm._v(" "),
+                                _c(
+                                  "font",
+                                  {
+                                    staticClass: "white--text",
+                                    attrs: { size: "4" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "¿TU PAREJA TE HA MENOSPRECIADO O GOLPEADO Y DICIENDO QUE ES UN JUEGO? "
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            ),
                             _vm._v(" "),
                             _c(
-                              "font",
-                              {
-                                staticClass: "white--text",
-                                attrs: { size: "4" }
-                              },
+                              "v-flex",
+                              { staticClass: "hidden-sm-and-up" },
                               [
-                                _vm._v(
-                                  "¿TU PAREJA TE HA MENOSPRECIADO O GOLPEADO Y DICIENDO QUE ES UN JUEGO? \r\n      "
+                                _c("br"),
+                                _vm._v(" "),
+                                _c(
+                                  "font",
+                                  {
+                                    staticClass: "white--text",
+                                    attrs: { size: "3" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "¿TU PAREJA TE HA MENOSPRECIADO O GOLPEADO Y DICIENDO QUE ES UN JUEGO? "
+                                    )
+                                  ]
                                 )
-                              ]
+                              ],
+                              1
                             )
                           ],
                           1
@@ -77106,21 +77246,50 @@ var render = function() {
                         _c(
                           "center",
                           [
-                            _c("br"),
-                            _vm._v(" "),
-                            _c("br"),
+                            _c(
+                              "v-flex",
+                              { staticClass: "hidden-xs-only" },
+                              [
+                                _c("br"),
+                                _vm._v(" "),
+                                _c("br"),
+                                _vm._v(" "),
+                                _c(
+                                  "font",
+                                  {
+                                    staticClass: "white--text",
+                                    attrs: { size: "4" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "¿TU PAREJA TE HA GOLPEADO, ENCERRADO, AMENAZADO DE MUERTE  O ABUSADO SEXUALMENTE?"
+                                    )
+                                  ]
+                                )
+                              ],
+                              1
+                            ),
                             _vm._v(" "),
                             _c(
-                              "font",
-                              {
-                                staticClass: "white--text",
-                                attrs: { size: "5" }
-                              },
+                              "v-flex",
+                              { staticClass: "hidden-sm-and-up" },
                               [
-                                _vm._v(
-                                  "¿TU PAREJA TE HA GOLPEADO, ENCERRADO, AMENAZADO DE MUERTE  O ABUSADO SEXUALMENTE?\r\n      "
+                                _c("br"),
+                                _vm._v(" "),
+                                _c(
+                                  "font",
+                                  {
+                                    staticClass: "white--text",
+                                    attrs: { size: "3" }
+                                  },
+                                  [
+                                    _vm._v(
+                                      "¿TU PAREJA TE HA GOLPEADO, ENCERRADO, AMENAZADO DE MUERTE  O ABUSADO SEXUALMENTE?"
+                                    )
+                                  ]
                                 )
-                              ]
+                              ],
+                              1
                             )
                           ],
                           1
