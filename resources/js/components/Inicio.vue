@@ -114,7 +114,7 @@
                                             <v-flex xs8 sm8 md8 lg8 xl8 >
                                             <v-layout justify-left>
                                             <center>
-                                               No tienes por que sentirse sola.
+                                               No tienes por que sentirte sola.
                                             </center>
                                             </v-layout>
                                             </v-flex>
@@ -240,45 +240,115 @@
  </v-flex> 
  <!--Sin hover-->
  <v-layout justify-center class="hidden-sm-and-up">
-    <v-flex xs11>
+    <v-jumbotron>
+    <br />
+    <v-container fill-height>
+      <v-layout align-center>
+        <v-flex>
+            <center>
+            <v-flex class="hidden-sm-and-up">
+          <font class="display-1">No tienes por que sentirte sola.</font>
+          <br />
+          <br />
+            </v-flex>
+            </center>
+            
     <v-img
       :aspect-ratio="16/9"
       width="626" height="352" style="width:100%; height:auto;"
       :src="'/img/Imagen2.jpg'"
     >
     </v-img>
-    </v-flex>
+    
+            <br/>
+          <v-divider class="my-3"></v-divider>
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </v-jumbotron>
 </v-layout>
 <v-layout justify-center class="hidden-sm-and-up">
-    <v-flex xs11>
-    <v-img
+    <v-jumbotron>
+    <br />
+    <v-container fill-height>
+      <v-layout align-center>
+        <v-flex>
+            <center>
+            <v-flex class="hidden-sm-and-up">
+          <font class="display-1">El trato que te da una persona agresiva no solo te afecta a ti, afecta a tus seres queridos.</font>
+          <br />
+          <br />
+            </v-flex>
+            </center>
+            <v-img
       :aspect-ratio="16/9"
       width="626" height="352" style="width:100%; height:auto;"
-      :src="'/img/Imagen3.jpg'"
+      :src="'/img/Imagen6.jpg'"
     >
     </v-img>
-    </v-flex>
+            <br/>
+          <v-divider class="my-3"></v-divider>
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </v-jumbotron>
+
 </v-layout>
 <v-layout justify-center class="hidden-sm-and-up">
-    <v-flex xs11>
-    <v-img
+    <v-jumbotron>
+    <br />
+    <v-container fill-height>
+      <v-layout align-center>
+        <v-flex>
+            <center>
+            <v-flex class="hidden-sm-and-up">
+          <font class="display-1">Tu puedes cambiar esto.</font>
+          <br />
+          <br />
+            </v-flex>
+            </center>
+            <v-img
       :aspect-ratio="16/9"
       width="626" height="352" style="width:100%; height:auto;"
       :src="'/img/Imagen4.jpg'"
     >
     </v-img>
-    </v-flex>
+            <br/>
+          <v-divider class="my-3"></v-divider>
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </v-jumbotron>
+
 </v-layout>
 <v-layout justify-center class="hidden-sm-and-up">
-    <v-flex xs11>
-    <v-img
+    <v-jumbotron>
+    <br />
+    <v-container fill-height>
+      <v-layout align-center>
+        <v-flex>
+            <center>
+            <v-flex class="hidden-sm-and-up">
+          <font class="display-1">Te invitamos a participar en nuestra encuesta.</font>
+          <v-btn color="#ff6666" class="white--text" large @click="EncuestaActivar = true">Encuesta<v-icon color="white" style="margin-left:10px">sticky_note_2</v-icon></v-btn>
+                                            
+          <br />
+          <br />
+            </v-flex>
+            </center>
+            <v-img
       :aspect-ratio="16/9"
       width="626" height="352" style="width:100%; height:auto;"
       :src="'/img/Imagen5.jpg'"
     >
     </v-img>
+            <br/>
+          <v-divider class="my-3"></v-divider>
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </v-jumbotron>
 
-    </v-flex>
 </v-layout>
 
 <br />
@@ -330,7 +400,7 @@
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        &copy;2018 — <strong>Equipo SEG - 052</strong>
+        &copy;2020 — <strong>Equipo SEG - 052</strong>
       </v-card-text>
     </v-card>
   </v-footer>

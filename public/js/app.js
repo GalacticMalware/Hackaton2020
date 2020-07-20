@@ -2435,6 +2435,150 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Informativo/Directorio.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Informativo/Directorio.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      search: '',
+      headers: [{
+        text: 'Estado',
+        align: 'center',
+        sortable: false,
+        value: 'estado'
+      }, {
+        text: 'Organizaion',
+        value: 'organizaion',
+        align: 'center',
+        sortable: false
+      }, {
+        text: 'Direccion',
+        value: 'direccion',
+        align: 'center',
+        sortable: false
+      }, {
+        text: 'Contacto',
+        value: 'contacto',
+        align: 'center',
+        sortable: false
+      }],
+      desserts: [{
+        estado: 'Aguascalientes',
+        organizaion: 'Instituto aguascalientes de las mujeres ',
+        direccion: 'plaza república 105 Altos, col.Zona centro, C.P Zona Centro 20010 Aguascalientes',
+        contacto: '(449) 910 2128, 9102040 Ext. 3103 fax (449)9102004.  aguascalientes@inmujeres.gob.mx, ecguzman@aguascalientes.gob.mx, pisikahua@aguascalientes.gob.mx, elsaguame@yahoo.com.mx, msdavila@aguscalientes.gob.mx'
+      }, {
+        estado: 'Aguscalientes ',
+        organizaion: 'Mujer contemporanea, A.C',
+        direccion: 'Fray Bartolomé de las casas 404, Barrio de la estación, C.P 20259, Aguascalientes.',
+        contacto: '(449)9188176 fax: (449) 9188176. contemporanea/_aguascalientes@hotmail.com'
+      }, {
+        estado: 'Eclair',
+        organizaion: 262,
+        direccion: 16.0,
+        contacto: 23
+      }, {
+        estado: 'Cupcake',
+        organizaion: 305,
+        direccion: 3.7,
+        contacto: 67
+      }, {
+        estado: 'Gingerbread',
+        organizaion: 356,
+        direccion: 16.0,
+        contacto: 49
+      }, {
+        estado: 'Jelly bean',
+        organizaion: 375,
+        direccion: 0.0,
+        contacto: 94
+      }, {
+        estado: 'Lollipop',
+        organizaion: 392,
+        direccion: 0.2,
+        contacto: 98
+      }, {
+        estado: 'Honeycomb',
+        organizaion: 408,
+        direccion: 3.2,
+        contacto: 87
+      }, {
+        estado: 'Donut',
+        organizaion: 452,
+        direccion: 25.0,
+        contacto: 51
+      }, {
+        estado: 'KitKat',
+        organizaion: 518,
+        direccion: 26.0,
+        contacto: 65
+      }]
+    };
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Informativo/TablaApp.vue?vue&type=script&lang=js&":
 /*!*******************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Informativo/TablaApp.vue?vue&type=script&lang=js& ***!
@@ -2589,6 +2733,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2646,6 +2793,76 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Encuesta__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Encuesta */ "./resources/js/components/Encuesta.vue");
 /* harmony import */ var _Informativo_Violentrometro__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Informativo/Violentrometro */ "./resources/js/components/Informativo/Violentrometro.vue");
 /* harmony import */ var _Informativo_TablaApp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Informativo/TablaApp */ "./resources/js/components/Informativo/TablaApp.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -76769,7 +76986,7 @@ var render = function() {
                 {
                   key: "opposite",
                   fn: function() {
-                    return [_c("span", [_vm._v("Informacion")])]
+                    return [_c("span")]
                   },
                   proxy: true
                 }
@@ -76781,15 +76998,27 @@ var render = function() {
                 "v-card",
                 { staticClass: "elevation-2" },
                 [
-                  _c("v-card-title", { staticClass: "headline" }, [
-                    _vm._v("Quienes somos")
-                  ]),
+                  _c(
+                    "center",
+                    [
+                      _c("v-card-title", { staticClass: "headline" }, [
+                        _vm._v("¿Qué es SURE?")
+                      ])
+                    ],
+                    1
+                  ),
                   _vm._v(" "),
-                  _c("v-card-text", [
-                    _vm._v(
-                      "\r\n         Somos una empresase social en cual nos dericaresmos a ayudar a las demas personas con problemas de violencia\r\n        "
-                    )
-                  ])
+                  _c(
+                    "v-card-text",
+                    [
+                      _c("center", [
+                        _vm._v(
+                          "\r\n        Iniciativa que busca informar, orientar y ayudar a  mujeres y niñas en estado de vulnerabilidad, riesgo o víctimas de violencia a través de campañas de información y vinculación; proporcionando un directorio digital de aliados estratégicos, instituciones y profesionales que cumplan con estándares para responder a las necesidades de las mujeres en condición de violencia.\r\n        "
+                        )
+                      ])
+                    ],
+                    1
+                  )
                 ],
                 1
               )
@@ -76805,7 +77034,7 @@ var render = function() {
                 {
                   key: "opposite",
                   fn: function() {
-                    return [_c("span", [_vm._v("Informacion")])]
+                    return [_c("span")]
                   },
                   proxy: true
                 }
@@ -76817,15 +77046,27 @@ var render = function() {
                 "v-card",
                 { staticClass: "elevation-2" },
                 [
-                  _c("v-card-title", { staticClass: "headline" }, [
-                    _vm._v("Vision")
-                  ]),
+                  _c(
+                    "center",
+                    [
+                      _c("v-card-title", { staticClass: "headline" }, [
+                        _vm._v("Características de la Solución")
+                      ])
+                    ],
+                    1
+                  ),
                   _vm._v(" "),
-                  _c("v-card-text", [
-                    _vm._v(
-                      "\r\n         Somos una empresase social en cual nos dericaresmos a ayudar a las demas personas con problemas de violencia\r\n        "
-                    )
-                  ])
+                  _c(
+                    "v-card-text",
+                    [
+                      _c("center", [
+                        _vm._v(
+                          "\r\n        Crear conciencia sobre los niveles de violencia, sus tipos y  forma de prevención en las mujeres.\r\n        Orientar e informar sobre la violencia e índices en que se manifiestan en la actualidad.\r\n        Inicialmente generar un punto de contacto con una gran parte de la población femenina a través de de los puntos de venta LICONSA.\r\n        Acercar a las mujeres el contacto con organizaciones que brinden una asistencia de calidad.\r\n        Proporcionar apoyo  a través de nuestra página para las mujeres que se encuentren en situación de riesgo por razones de género. El directorio contará  con la documentación necesaria para que puedan comunicarse con las empresas públicas y privadas destinadas a brindar atención a mujeres que sufren violencia.\r\n        "
+                        )
+                      ])
+                    ],
+                    1
+                  )
                 ],
                 1
               )
@@ -76841,7 +77082,7 @@ var render = function() {
                 {
                   key: "opposite",
                   fn: function() {
-                    return [_c("span", [_vm._v("Informacion")])]
+                    return [_c("span")]
                   },
                   proxy: true
                 }
@@ -76853,15 +77094,133 @@ var render = function() {
                 "v-card",
                 { staticClass: "elevation-2" },
                 [
-                  _c("v-card-title", { staticClass: "headline" }, [
-                    _vm._v("Mision")
-                  ]),
+                  _c(
+                    "center",
+                    [
+                      _c("v-card-title", { staticClass: "headline" }, [
+                        _vm._v(
+                          "¿Cómo esta solución resuelve el problema que detectaste?"
+                        )
+                      ])
+                    ],
+                    1
+                  ),
                   _vm._v(" "),
-                  _c("v-card-text", [
-                    _vm._v(
-                      "\r\n         Somos una empresase social en cual nos dericaresmos a ayudar a las demas personas con problemas de violencia\r\n        "
-                    )
-                  ])
+                  _c(
+                    "v-card-text",
+                    [
+                      _c("center", [
+                        _vm._v(
+                          "\r\n         Se encontró que muchas de las organizaciones que  asisten a  las mujeres que sufren de violencia por razones de género, no están especializadas , lo que limita  una  atención de calidad a la víctima.\r\n          SURE no solo servirá para comunicar y prevenir, sino que auxiliara en un oportuno contacto con diversas instituciones, de tal modo  que ampara a quien decida contactar y buscar ayuda, puesto que SURE será además un filtro, que centralice la información de  calidad para una mejor atención a las usuarias. \r\n          RED ALIADA permitirá una rápida propagación de la información de asistencia a las afectadas a través del canal de distribución establecido en los puntos LICONSA.\r\n          "
+                        )
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-timeline-item",
+            {
+              attrs: { color: "red lighten-2", large: "" },
+              scopedSlots: _vm._u([
+                {
+                  key: "opposite",
+                  fn: function() {
+                    return [_c("span")]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "v-card",
+                { staticClass: "elevation-2" },
+                [
+                  _c(
+                    "center",
+                    [
+                      _c("v-card-title", { staticClass: "headline" }, [
+                        _vm._v(
+                          "¿Cómo podrías empezar con la implementación en menos de 6 meses?"
+                        )
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-card-text",
+                    [
+                      _c("center", [
+                        _vm._v(
+                          "\r\n         En la fase inicial se harán públicos los carteles y la información de nuestra página SURE Red Aliada, y se promoverá  también a través de las redes sociales (facebook, twitter, instagram, spotify, zoom)\r\n        Se creará un podcast dirigido a difundir todos los datos que permitan prevenir el incremento de la violencia, tomando como base el violentómetro creado por IPN.\r\n        (Posteriormente Invitando a especialistas a mesas de diálogo)\r\n        En la página SURE Red Aliada estará a disposición del lector una referencia sobre la violencia y su contexto (causas y consecuencias) proporcionadas por fuentes como la ONU, la OMS y la CNDH.\r\n        Se difundirá en redes sociales como en la página oficial de SURE una encuesta para identificar los grados y tipos de violencia que sufre la víctima. \r\n        Servir de intermediario en el contacto con las empresas destinadas a proteger a las víctimas de violencia de género  a través de un directorio en la página. \r\n        "
+                        )
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-timeline-item",
+            {
+              attrs: { color: "red lighten-2", large: "" },
+              scopedSlots: _vm._u([
+                {
+                  key: "opposite",
+                  fn: function() {
+                    return [_c("span")]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "v-card",
+                { staticClass: "elevation-2" },
+                [
+                  _c(
+                    "center",
+                    [
+                      _c("v-card-title", { staticClass: "headline" }, [
+                        _vm._v(
+                          "Cuáles son los cambios que esto generaría en las niñas y mujeres durante y post COVID-19?\r\n"
+                        ),
+                        _c("br"),
+                        _vm._v(
+                          "¿Cómo esto contribuye a la agenda de género en México?\r\n\r\n"
+                        )
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-card-text",
+                    [
+                      _c("center", [
+                        _vm._v(
+                          "\r\n        Promoción del bienestar en mujeres - en consecuencia en sus familias - para una vida sana.\r\n        Informar y empoderar a las mujeres y niñas a través de la orientación, acceso a información centralizada, actualizada y profesional para el ejercicio de sus derechos.\r\n        Promoción y oportunidades de aprendizaje sobre  la violencia de género. \r\n        Prevención de incremento de casos de violencia en el país.\r\n        Centralización de Organizaciones, Asociaciones e Instituciones que brindan atención profesional en temas de violencia. Para generar alianzas  y cooperación para un fin común.\r\n        "
+                        )
+                      ])
+                    ],
+                    1
+                  )
                 ],
                 1
               )
@@ -77449,6 +77808,168 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Informativo/Directorio.vue?vue&type=template&id=acd20fb4&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Informativo/Directorio.vue?vue&type=template&id=acd20fb4& ***!
+  \*************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c(
+        "v-card",
+        [
+          _c(
+            "v-card-title",
+            [
+              _vm._v("\n    Directorio\n    "),
+              _c("v-spacer"),
+              _vm._v(" "),
+              _c("v-text-field", {
+                attrs: {
+                  "append-icon": "search",
+                  label: "Buscar",
+                  "single-line": "",
+                  "hide-details": ""
+                },
+                model: {
+                  value: _vm.search,
+                  callback: function($$v) {
+                    _vm.search = $$v
+                  },
+                  expression: "search"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("v-data-table", {
+            attrs: {
+              headers: _vm.headers,
+              items: _vm.desserts,
+              search: _vm.search
+            },
+            scopedSlots: _vm._u([
+              {
+                key: "items",
+                fn: function(props) {
+                  return [
+                    _c("td", { staticClass: "text-xs-center" }, [
+                      _vm._v(_vm._s(props.item.estado))
+                    ]),
+                    _vm._v(" "),
+                    _c("td", { staticClass: "text-xs-center" }, [
+                      _vm._v(_vm._s(props.item.organizaion))
+                    ]),
+                    _vm._v(" "),
+                    _c("td", { staticClass: "text-xs-center" }, [
+                      _vm._v(_vm._s(props.item.direccion))
+                    ]),
+                    _vm._v(" "),
+                    _c("td", { staticClass: "text-xs-center" }, [
+                      _vm._v(_vm._s(props.item.contacto))
+                    ])
+                  ]
+                }
+              },
+              {
+                key: "no-results",
+                fn: function() {
+                  return [
+                    _c(
+                      "v-alert",
+                      {
+                        attrs: { value: true, color: "error", icon: "warning" }
+                      },
+                      [
+                        _vm._v(
+                          '\n        Your search for "' +
+                            _vm._s(_vm.search) +
+                            '" found no results.\n      '
+                        )
+                      ]
+                    )
+                  ]
+                },
+                proxy: true
+              }
+            ])
+          })
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-snackbar",
+        {
+          attrs: {
+            "multi-line": true,
+            right: true,
+            timeout: 3000,
+            top: true,
+            color: "success"
+          },
+          model: {
+            value: _vm.NotificacionSuccess,
+            callback: function($$v) {
+              _vm.NotificacionSuccess = $$v
+            },
+            expression: "NotificacionSuccess"
+          }
+        },
+        [
+          _c("v-icon", { attrs: { left: "", color: "white" } }, [
+            _vm._v("check_circle")
+          ]),
+          _vm._v(" "),
+          _c("font", { attrs: { size: "3" } }, [
+            _vm._v(_vm._s(_vm.textoSuccess))
+          ]),
+          _vm._v(" "),
+          _c(
+            "v-btn",
+            {
+              attrs: { flat: "" },
+              on: {
+                click: function($event) {
+                  _vm.NotificacionSuccess = false
+                }
+              }
+            },
+            [_c("v-icon", { attrs: { color: "white" } }, [_vm._v("cancel")])],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Informativo/TablaApp.vue?vue&type=template&id=7d2a3e2a&":
 /*!***********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Informativo/TablaApp.vue?vue&type=template&id=7d2a3e2a& ***!
@@ -77559,22 +78080,29 @@ var render = function() {
     "div",
     [
       _c(
-        "v-flex",
-        { attrs: { xs12: "", md12: "", lg12: "", xl12: "" } },
+        "v-layout",
+        { attrs: { "justify-center": "" } },
         [
           _c(
-            "v-card",
-            { attrs: { flat: "" } },
+            "v-flex",
+            { attrs: { xs12: "", md11: "", lg9: "", xl9: "" } },
             [
-              _c("v-card-text", [
-                _c("canvas", {
-                  attrs: {
-                    id: "violentrometro",
-                    "max-width": "50%",
-                    "max-height": "50%"
-                  }
-                })
-              ])
+              _c(
+                "v-card",
+                { attrs: { flat: "" } },
+                [
+                  _c("v-card-text", [
+                    _c("canvas", {
+                      attrs: {
+                        id: "violentrometro",
+                        "max-width": "500px",
+                        "max-height": "500px"
+                      }
+                    })
+                  ])
+                ],
+                1
+              )
             ],
             1
           )
@@ -77919,7 +78447,7 @@ var render = function() {
                                                   [
                                                     _c("center", [
                                                       _vm._v(
-                                                        "\n                                               No tienes por que sentirse sola.\n                                            "
+                                                        "\n                                               No tienes por que sentirte sola.\n                                            "
                                                       )
                                                     ])
                                                   ],
@@ -78289,18 +78817,64 @@ var render = function() {
         { staticClass: "hidden-sm-and-up", attrs: { "justify-center": "" } },
         [
           _c(
-            "v-flex",
-            { attrs: { xs11: "" } },
+            "v-jumbotron",
             [
-              _c("v-img", {
-                staticStyle: { width: "100%", height: "auto" },
-                attrs: {
-                  "aspect-ratio": 16 / 9,
-                  width: "626",
-                  height: "352",
-                  src: "/img/Imagen2.jpg"
-                }
-              })
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "v-container",
+                { attrs: { "fill-height": "" } },
+                [
+                  _c(
+                    "v-layout",
+                    { attrs: { "align-center": "" } },
+                    [
+                      _c(
+                        "v-flex",
+                        [
+                          _c(
+                            "center",
+                            [
+                              _c(
+                                "v-flex",
+                                { staticClass: "hidden-sm-and-up" },
+                                [
+                                  _c("font", { staticClass: "display-1" }, [
+                                    _vm._v("No tienes por que sentirte sola.")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("br"),
+                                  _vm._v(" "),
+                                  _c("br")
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("v-img", {
+                            staticStyle: { width: "100%", height: "auto" },
+                            attrs: {
+                              "aspect-ratio": 16 / 9,
+                              width: "626",
+                              height: "352",
+                              src: "/img/Imagen2.jpg"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c("br"),
+                          _vm._v(" "),
+                          _c("v-divider", { staticClass: "my-3" })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
             ],
             1
           )
@@ -78313,18 +78887,66 @@ var render = function() {
         { staticClass: "hidden-sm-and-up", attrs: { "justify-center": "" } },
         [
           _c(
-            "v-flex",
-            { attrs: { xs11: "" } },
+            "v-jumbotron",
             [
-              _c("v-img", {
-                staticStyle: { width: "100%", height: "auto" },
-                attrs: {
-                  "aspect-ratio": 16 / 9,
-                  width: "626",
-                  height: "352",
-                  src: "/img/Imagen3.jpg"
-                }
-              })
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "v-container",
+                { attrs: { "fill-height": "" } },
+                [
+                  _c(
+                    "v-layout",
+                    { attrs: { "align-center": "" } },
+                    [
+                      _c(
+                        "v-flex",
+                        [
+                          _c(
+                            "center",
+                            [
+                              _c(
+                                "v-flex",
+                                { staticClass: "hidden-sm-and-up" },
+                                [
+                                  _c("font", { staticClass: "display-1" }, [
+                                    _vm._v(
+                                      "El trato que te da una persona agresiva no solo te afecta a ti, afecta a tus seres queridos."
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("br"),
+                                  _vm._v(" "),
+                                  _c("br")
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("v-img", {
+                            staticStyle: { width: "100%", height: "auto" },
+                            attrs: {
+                              "aspect-ratio": 16 / 9,
+                              width: "626",
+                              height: "352",
+                              src: "/img/Imagen6.jpg"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c("br"),
+                          _vm._v(" "),
+                          _c("v-divider", { staticClass: "my-3" })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
             ],
             1
           )
@@ -78337,18 +78959,64 @@ var render = function() {
         { staticClass: "hidden-sm-and-up", attrs: { "justify-center": "" } },
         [
           _c(
-            "v-flex",
-            { attrs: { xs11: "" } },
+            "v-jumbotron",
             [
-              _c("v-img", {
-                staticStyle: { width: "100%", height: "auto" },
-                attrs: {
-                  "aspect-ratio": 16 / 9,
-                  width: "626",
-                  height: "352",
-                  src: "/img/Imagen4.jpg"
-                }
-              })
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "v-container",
+                { attrs: { "fill-height": "" } },
+                [
+                  _c(
+                    "v-layout",
+                    { attrs: { "align-center": "" } },
+                    [
+                      _c(
+                        "v-flex",
+                        [
+                          _c(
+                            "center",
+                            [
+                              _c(
+                                "v-flex",
+                                { staticClass: "hidden-sm-and-up" },
+                                [
+                                  _c("font", { staticClass: "display-1" }, [
+                                    _vm._v("Tu puedes cambiar esto.")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("br"),
+                                  _vm._v(" "),
+                                  _c("br")
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("v-img", {
+                            staticStyle: { width: "100%", height: "auto" },
+                            attrs: {
+                              "aspect-ratio": 16 / 9,
+                              width: "626",
+                              height: "352",
+                              src: "/img/Imagen4.jpg"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c("br"),
+                          _vm._v(" "),
+                          _c("v-divider", { staticClass: "my-3" })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
             ],
             1
           )
@@ -78361,18 +79029,93 @@ var render = function() {
         { staticClass: "hidden-sm-and-up", attrs: { "justify-center": "" } },
         [
           _c(
-            "v-flex",
-            { attrs: { xs11: "" } },
+            "v-jumbotron",
             [
-              _c("v-img", {
-                staticStyle: { width: "100%", height: "auto" },
-                attrs: {
-                  "aspect-ratio": 16 / 9,
-                  width: "626",
-                  height: "352",
-                  src: "/img/Imagen5.jpg"
-                }
-              })
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "v-container",
+                { attrs: { "fill-height": "" } },
+                [
+                  _c(
+                    "v-layout",
+                    { attrs: { "align-center": "" } },
+                    [
+                      _c(
+                        "v-flex",
+                        [
+                          _c(
+                            "center",
+                            [
+                              _c(
+                                "v-flex",
+                                { staticClass: "hidden-sm-and-up" },
+                                [
+                                  _c("font", { staticClass: "display-1" }, [
+                                    _vm._v(
+                                      "Te invitamos a participar en nuestra encuesta."
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "v-btn",
+                                    {
+                                      staticClass: "white--text",
+                                      attrs: { color: "#ff6666", large: "" },
+                                      on: {
+                                        click: function($event) {
+                                          _vm.EncuestaActivar = true
+                                        }
+                                      }
+                                    },
+                                    [
+                                      _vm._v("Encuesta"),
+                                      _c(
+                                        "v-icon",
+                                        {
+                                          staticStyle: {
+                                            "margin-left": "10px"
+                                          },
+                                          attrs: { color: "white" }
+                                        },
+                                        [_vm._v("sticky_note_2")]
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("br"),
+                                  _vm._v(" "),
+                                  _c("br")
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("v-img", {
+                            staticStyle: { width: "100%", height: "auto" },
+                            attrs: {
+                              "aspect-ratio": 16 / 9,
+                              width: "626",
+                              height: "352",
+                              src: "/img/Imagen5.jpg"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c("br"),
+                          _vm._v(" "),
+                          _c("v-divider", { staticClass: "my-3" })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
             ],
             1
           )
@@ -78472,7 +79215,7 @@ var render = function() {
                   _c("v-divider"),
                   _vm._v(" "),
                   _c("v-card-text", { staticClass: "white--text" }, [
-                    _vm._v("\n        ©2018 — "),
+                    _vm._v("\n        ©2020 — "),
                     _c("strong", [_vm._v("Equipo SEG - 052")])
                   ])
                 ],
@@ -120395,17 +121138,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-var render, staticRenderFns
-var script = {}
+/* harmony import */ var _Directorio_vue_vue_type_template_id_acd20fb4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Directorio.vue?vue&type=template&id=acd20fb4& */ "./resources/js/components/Informativo/Directorio.vue?vue&type=template&id=acd20fb4&");
+/* harmony import */ var _Directorio_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Directorio.vue?vue&type=script&lang=js& */ "./resources/js/components/Informativo/Directorio.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
-  script,
-  render,
-  staticRenderFns,
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Directorio_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Directorio_vue_vue_type_template_id_acd20fb4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Directorio_vue_vue_type_template_id_acd20fb4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -120413,8 +121159,42 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
   
 )
 
+/* hot reload */
+if (false) { var api; }
 component.options.__file = "resources/js/components/Informativo/Directorio.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Informativo/Directorio.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/Informativo/Directorio.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Directorio_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Directorio.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Informativo/Directorio.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Directorio_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Informativo/Directorio.vue?vue&type=template&id=acd20fb4&":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/components/Informativo/Directorio.vue?vue&type=template&id=acd20fb4& ***!
+  \*******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Directorio_vue_vue_type_template_id_acd20fb4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Directorio.vue?vue&type=template&id=acd20fb4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Informativo/Directorio.vue?vue&type=template&id=acd20fb4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Directorio_vue_vue_type_template_id_acd20fb4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Directorio_vue_vue_type_template_id_acd20fb4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 

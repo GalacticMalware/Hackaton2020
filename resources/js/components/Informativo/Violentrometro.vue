@@ -1,13 +1,16 @@
 <template>
 <div>
- <v-flex xs12 md12 lg12 xl12>
+<v-layout justify-center>
+ <v-flex xs12 md11 lg9 xl9>
 <v-card flat>
 <v-card-text>
-    <canvas id="violentrometro" max-width="50%" max-height="50%"></canvas>
-
+    
+    <canvas id="violentrometro" max-width="500px" max-height="500px"></canvas>
+    
 </v-card-text>
 </v-card>
  </v-flex>
+ </v-layout>
 </div>
 </template>
 
