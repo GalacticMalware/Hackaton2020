@@ -16,7 +16,6 @@
     
 </head>
 <body>
-    <img src="/img/logo.png"></img>
     <div id="app" >
         <v-app>
             
