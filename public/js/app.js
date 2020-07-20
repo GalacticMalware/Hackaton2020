@@ -1943,6 +1943,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Encuesta__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Encuesta */ "./resources/js/components/Encuesta.vue");
 //
 //
 //
@@ -1981,11 +1982,46 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    Encuesta: _Encuesta__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
   data: function data() {
     return {
       bottomNav: 4,
-      AcercaDe: true
+      AcercaDe: true,
+      EncuestaActivar: false
     };
   },
   computed: {
@@ -2023,6 +2059,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Informativo_Contactanos__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Informativo/Contactanos */ "./resources/js/components/Informativo/Contactanos.vue");
 //
 //
 //
@@ -2076,13 +2113,81 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    contacto: _Informativo_Contactanos__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
   data: function data() {
     return {
-      e6: 1
+      preguntas: 1,
+      puntos: 0,
+      dialog: false,
+      activo: true
     };
   },
-  methods: {}
+  methods: {
+    Total: function Total() {
+      this.dialog = true;
+
+      if (this.puntos >= 3) {
+        this.puntos = 0;
+        this.activo = false;
+      }
+
+      this.puntos = 0;
+      this.activo = false;
+    }
+  }
 });
 
 /***/ }),
@@ -2410,6 +2515,16 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Encuesta__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Encuesta */ "./resources/js/components/Encuesta.vue");
 /* harmony import */ var _Informativo_Violentrometro__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Informativo/Violentrometro */ "./resources/js/components/Informativo/Violentrometro.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -75726,81 +75841,156 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "v-footer",
-    { attrs: { fixed: "" } },
+    "div",
     [
       _c(
-        "v-bottom-nav",
-        {
-          attrs: {
-            active: _vm.bottomNav,
-            color: _vm.color,
-            value: true,
-            absolute: "",
-            dark: "",
-            shift: ""
-          },
-          on: {
-            "update:active": function($event) {
-              _vm.bottomNav = $event
-            }
-          }
-        },
+        "v-footer",
+        { attrs: { fixed: "" } },
         [
           _c(
-            "v-btn",
-            { attrs: { dark: "", "router-link": "", to: { path: "/" } } },
-            [
-              _c("span", [_vm._v("Inicio")]),
-              _vm._v(" "),
-              _c("v-icon", [_vm._v("home")])
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "v-btn",
-            {
-              attrs: { dark: "", "router-link": "", to: { path: "/AcercaDe" } }
-            },
-            [
-              _c("span", [_vm._v("Acerca de")]),
-              _vm._v(" "),
-              _c("v-icon", [_vm._v("info")])
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "v-btn",
+            "v-bottom-nav",
             {
               attrs: {
+                active: _vm.bottomNav,
+                color: _vm.color,
+                value: true,
+                absolute: "",
                 dark: "",
-                "router-link": "",
-                to: { path: "/Directorio" }
+                shift: ""
+              },
+              on: {
+                "update:active": function($event) {
+                  _vm.bottomNav = $event
+                }
               }
             },
             [
-              _c("span", [_vm._v("Diccionario")]),
+              _c(
+                "v-btn",
+                { attrs: { dark: "", "router-link": "", to: { path: "/" } } },
+                [
+                  _c("span", [_vm._v("Inicio")]),
+                  _vm._v(" "),
+                  _c("v-icon", [_vm._v("home")])
+                ],
+                1
+              ),
               _vm._v(" "),
-              _c("v-icon", [_vm._v("menu_book")])
+              _c(
+                "v-btn",
+                {
+                  attrs: {
+                    dark: "",
+                    "router-link": "",
+                    to: { path: "/AcercaDe" }
+                  }
+                },
+                [
+                  _c("span", [_vm._v("Acerca de")]),
+                  _vm._v(" "),
+                  _c("v-icon", [_vm._v("info")])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "v-btn",
+                {
+                  attrs: {
+                    dark: "",
+                    "router-link": "",
+                    to: { path: "/Directorio" }
+                  }
+                },
+                [
+                  _c("span", [_vm._v("Directorio")]),
+                  _vm._v(" "),
+                  _c("v-icon", [_vm._v("menu_book")])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "v-btn",
+                {
+                  attrs: { dark: "" },
+                  on: {
+                    click: function($event) {
+                      _vm.EncuestaActivar = true
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v("Test")]),
+                  _vm._v(" "),
+                  _c("v-icon", [_vm._v("sticky_note_2")])
+                ],
+                1
+              )
             ],
             1
           ),
           _vm._v(" "),
           _c(
-            "v-btn",
+            "v-dialog",
             {
               attrs: {
-                dark: "",
-                "router-link": "",
-                to: { path: "/Contactanos" }
+                "max-width": "1000px",
+                persistent: "",
+                fullscreen: "",
+                "hide-overlay": "",
+                transition: "dialog-bottom-transition",
+                scrollable: ""
+              },
+              model: {
+                value: _vm.EncuestaActivar,
+                callback: function($$v) {
+                  _vm.EncuestaActivar = $$v
+                },
+                expression: "EncuestaActivar"
               }
             },
             [
-              _c("span", [_vm._v("Test")]),
-              _vm._v(" "),
-              _c("v-icon", [_vm._v("sticky_note_2")])
+              _c(
+                "v-card",
+                [
+                  _c(
+                    "v-toolbar",
+                    { attrs: { card: "", dark: "", color: "#ff6666" } },
+                    [
+                      _c(
+                        "v-btn",
+                        {
+                          attrs: { icon: "", dark: "" },
+                          on: {
+                            click: function($event) {
+                              _vm.EncuestaActivar = false
+                            }
+                          }
+                        },
+                        [_c("v-icon", [_vm._v("close")])],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-toolbar-title",
+                        [
+                          _c("v-layout", { attrs: { "justify-center": "" } }, [
+                            _c("span", { staticClass: "headline" }, [
+                              _vm._v("Encuesta")
+                            ])
+                          ])
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c("Encuesta")
+                ],
+                1
+              )
             ],
             1
           )
@@ -75834,241 +76024,478 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "v-stepper",
-    {
-      attrs: { vertical: "" },
-      model: {
-        value: _vm.e6,
-        callback: function($$v) {
-          _vm.e6 = $$v
-        },
-        expression: "e6"
-      }
-    },
+    "div",
     [
-      _c(
-        "v-stepper-step",
-        { attrs: { complete: _vm.e6 > 1, step: "1", color: "cyan" } },
-        [
-          _vm._v("\r\n      Pregunda 1\r\n      "),
-          _c("small", [_vm._v("Contestar con un SI o NO")])
-        ]
-      ),
+      _vm.dialog == true
+        ? [
+            _c(
+              "center",
+              [
+                _c("br"),
+                _vm._v(" "),
+                _c(
+                  "font",
+                  {
+                    staticClass: "font-weight",
+                    staticStyle: { "margin-top": "50px" },
+                    attrs: { size: "6" }
+                  },
+                  [_vm._v("Si requieres ayuda contactanos")]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("contacto")
+          ]
+        : _vm._e(),
       _vm._v(" "),
-      _c(
-        "v-stepper-content",
-        { attrs: { step: "1" } },
-        [
-          _c(
-            "v-card",
-            { staticClass: "mb-5", attrs: { color: "cyan ", height: "100px" } },
-            [
-              _c(
-                "center",
-                [
-                  _c("br"),
-                  _vm._v(" "),
-                  _c("br"),
-                  _vm._v(" "),
-                  _c(
-                    "font",
-                    { staticClass: "white--text", attrs: { size: "4" } },
-                    [
-                      _vm._v(
-                        "¿TU PAREJA U OTRA PERSONA A HECHO BROMAS O COMENTARIOS QUE TE HAGA SENTIR INCÓMODA U OFENDIDA?"
-                      )
-                    ]
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "center",
-            [
-              _c(
-                "v-btn",
-                {
-                  staticClass: "white--text",
-                  attrs: { color: "#E53935" },
-                  on: {
-                    click: function($event) {
-                      _vm.e6 = 2
-                    }
-                  }
-                },
-                [_vm._v("SI")]
-              ),
-              _vm._v(" "),
-              _c(
-                "v-btn",
-                {
-                  staticClass: "white--text",
-                  attrs: { color: "blue" },
-                  on: {
-                    click: function($event) {
-                      _vm.e6 = 2
-                    }
-                  }
-                },
-                [_vm._v("NO")]
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "v-stepper-step",
-        { attrs: { complete: _vm.e6 > 2, step: "2", color: "cyan" } },
-        [_vm._v("Pregunda 2")]
-      ),
-      _vm._v(" "),
-      _c(
-        "v-stepper-content",
-        { attrs: { step: "2" } },
-        [
-          _c(
-            "v-card",
-            { staticClass: "mb-5", attrs: { color: "cyan", height: "100px" } },
-            [
-              _c(
-                "center",
-                [
-                  _c("br"),
-                  _vm._v(" "),
-                  _c("br"),
-                  _vm._v(" "),
-                  _c(
-                    "font",
-                    { staticClass: "white--text", attrs: { size: "4" } },
-                    [
-                      _vm._v(
-                        "¿TU PAREJA U OTRA PERSONA TE A CELA CONSTANTEMENTE O TE A CULPADO POR ALGO QUE NO HAYAS HECHO?"
-                      )
-                    ]
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "center",
-            [
-              _c(
-                "v-btn",
-                {
-                  staticClass: "white--text",
-                  attrs: { color: "#E53935" },
-                  on: {
-                    click: function($event) {
-                      _vm.e6 = 3
-                    }
-                  }
-                },
-                [_vm._v("SI")]
-              ),
-              _vm._v(" "),
-              _c(
-                "v-btn",
-                {
-                  staticClass: "white--text",
-                  attrs: { color: "blue" },
-                  on: {
-                    click: function($event) {
-                      _vm.e6 = 4
-                    }
-                  }
-                },
-                [_vm._v("NO")]
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c("v-stepper-step", { attrs: { complete: _vm.e6 > 3, step: "3" } }, [
-        _vm._v("Pregunda 3")
-      ]),
-      _vm._v(" "),
-      _c(
-        "v-stepper-content",
-        { attrs: { step: "3" } },
-        [
-          _c("v-card", {
-            staticClass: "mb-5",
-            attrs: { color: "grey lighten-1", height: "200px" }
-          }),
-          _vm._v(" "),
-          _c(
-            "v-btn",
-            {
-              attrs: { color: "red" },
-              on: {
-                click: function($event) {
-                  _vm.e6 = 4
+      _vm.activo == true
+        ? [
+            _c(
+              "v-stepper",
+              {
+                attrs: { vertical: "" },
+                model: {
+                  value: _vm.preguntas,
+                  callback: function($$v) {
+                    _vm.preguntas = $$v
+                  },
+                  expression: "preguntas"
                 }
-              }
-            },
-            [_vm._v("SI")]
-          ),
-          _vm._v(" "),
-          _c(
-            "v-btn",
-            {
-              attrs: { color: "primary" },
-              on: {
-                click: function($event) {
-                  _vm.e6 = 4
-                }
-              }
-            },
-            [_vm._v("NO")]
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c("v-stepper-step", { attrs: { step: "4" } }, [_vm._v("Pregunda 4")]),
-      _vm._v(" "),
-      _c(
-        "v-stepper-content",
-        { attrs: { step: "4" } },
-        [
-          _c("v-card", {
-            staticClass: "mb-5",
-            attrs: { color: "grey lighten-1", height: "200px" }
-          }),
-          _vm._v(" "),
-          _c(
-            "v-btn",
-            {
-              attrs: { color: "red" },
-              on: {
-                click: function($event) {
-                  _vm.e6 = 1
-                }
-              }
-            },
-            [_vm._v("SI")]
-          ),
-          _vm._v(" "),
-          _c("v-btn", { attrs: { color: "primaty" } }, [_vm._v("NO")])
-        ],
-        1
-      )
+              },
+              [
+                _c(
+                  "v-stepper-step",
+                  {
+                    attrs: {
+                      complete: _vm.preguntas > 1,
+                      step: "1",
+                      color: "cyan"
+                    }
+                  },
+                  [
+                    _vm._v("\r\n      Pregunda 1\r\n      "),
+                    _c("small", [_vm._v("Contestar con un SI o NO")])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "v-stepper-content",
+                  { attrs: { step: "1" } },
+                  [
+                    _c(
+                      "v-card",
+                      {
+                        staticClass: "mb-5",
+                        attrs: { color: "cyan ", height: "100px" }
+                      },
+                      [
+                        _c(
+                          "center",
+                          [
+                            _c("br"),
+                            _vm._v(" "),
+                            _c("br"),
+                            _vm._v(" "),
+                            _c(
+                              "font",
+                              {
+                                staticClass: "white--text",
+                                attrs: { size: "4" }
+                              },
+                              [
+                                _vm._v(
+                                  "¿TU PAREJA U OTRA PERSONA A HECHO BROMAS O COMENTARIOS QUE TE HAGA SENTIR INCÓMODA U OFENDIDA?"
+                                )
+                              ]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "center",
+                      [
+                        _c(
+                          "v-btn",
+                          {
+                            staticClass: "white--text",
+                            attrs: { color: "#E53935" },
+                            on: {
+                              click: function($event) {
+                                ;(_vm.preguntas = 2), (_vm.puntos += 1)
+                              }
+                            }
+                          },
+                          [_vm._v("SI")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "v-btn",
+                          {
+                            staticClass: "white--text",
+                            attrs: { color: "blue" },
+                            on: {
+                              click: function($event) {
+                                _vm.preguntas = 2
+                              }
+                            }
+                          },
+                          [_vm._v("NO")]
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "v-stepper-step",
+                  {
+                    attrs: {
+                      complete: _vm.preguntas > 2,
+                      step: "2",
+                      color: "cyan"
+                    }
+                  },
+                  [_vm._v("Pregunda 2")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "v-stepper-content",
+                  { attrs: { step: "2" } },
+                  [
+                    _c(
+                      "v-card",
+                      {
+                        staticClass: "mb-5",
+                        attrs: { color: "cyan", height: "100px" }
+                      },
+                      [
+                        _c(
+                          "center",
+                          [
+                            _c("br"),
+                            _vm._v(" "),
+                            _c("br"),
+                            _vm._v(" "),
+                            _c(
+                              "font",
+                              {
+                                staticClass: "white--text",
+                                attrs: { size: "4" }
+                              },
+                              [
+                                _vm._v(
+                                  "¿TU PAREJA U OTRA PERSONA TE A CELADO CONSTANTEMENTE O TE A CULPADO POR ALGO QUE NO HAYAS HECHO?"
+                                )
+                              ]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "center",
+                      [
+                        _c(
+                          "v-btn",
+                          {
+                            staticClass: "white--text",
+                            attrs: { color: "#E53935" },
+                            on: {
+                              click: function($event) {
+                                ;(_vm.preguntas = 3), (_vm.puntos += 1)
+                              }
+                            }
+                          },
+                          [_vm._v("SI")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "v-btn",
+                          {
+                            staticClass: "white--text",
+                            attrs: { color: "blue" },
+                            on: {
+                              click: function($event) {
+                                _vm.preguntas = 3
+                              }
+                            }
+                          },
+                          [_vm._v("NO")]
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "v-stepper-step",
+                  {
+                    attrs: {
+                      complete: _vm.preguntas > 3,
+                      step: "3",
+                      color: "cyan"
+                    }
+                  },
+                  [_vm._v("Pregunda 3")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "v-stepper-content",
+                  { attrs: { step: "3" } },
+                  [
+                    _c(
+                      "v-card",
+                      {
+                        staticClass: "mb-5",
+                        attrs: { color: "cyan", height: "100px" }
+                      },
+                      [
+                        _c(
+                          "center",
+                          [
+                            _c("br"),
+                            _vm._v(" "),
+                            _c("br"),
+                            _vm._v(" "),
+                            _c(
+                              "font",
+                              {
+                                staticClass: "white--text",
+                                attrs: { size: "4" }
+                              },
+                              [
+                                _vm._v(
+                                  "¿TU PAREJA U OTRA PERSONA TE A INTIMIDADO, AMENAZADO O TE HA OBLIGADO A HACER ALGO QUE TU NO QUIERAS HACER ?\r\n      "
+                                )
+                              ]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "center",
+                      [
+                        _c(
+                          "v-btn",
+                          {
+                            staticClass: "white--text",
+                            attrs: { color: "#E53935" },
+                            on: {
+                              click: function($event) {
+                                ;(_vm.preguntas = 4), (_vm.puntos += 1)
+                              }
+                            }
+                          },
+                          [_vm._v("SI")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "v-btn",
+                          {
+                            staticClass: "white--text",
+                            attrs: { color: "blue" },
+                            on: {
+                              click: function($event) {
+                                _vm.preguntas = 4
+                              }
+                            }
+                          },
+                          [_vm._v("NO")]
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "v-stepper-step",
+                  {
+                    attrs: {
+                      complete: _vm.preguntas > 4,
+                      step: "4",
+                      color: "cyan"
+                    }
+                  },
+                  [_vm._v("Pregunda 4")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "v-stepper-content",
+                  { attrs: { step: "4" } },
+                  [
+                    _c(
+                      "v-card",
+                      {
+                        staticClass: "mb-5",
+                        attrs: { color: "cyan", height: "100px" }
+                      },
+                      [
+                        _c(
+                          "center",
+                          [
+                            _c("br"),
+                            _vm._v(" "),
+                            _c("br"),
+                            _vm._v(" "),
+                            _c(
+                              "font",
+                              {
+                                staticClass: "white--text",
+                                attrs: { size: "4" }
+                              },
+                              [
+                                _vm._v(
+                                  "¿TU PAREJA TE HA MENOSPRECIADO O GOLPEADO Y DICIENDO QUE ES UN JUEGO? \r\n      "
+                                )
+                              ]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "center",
+                      [
+                        _c(
+                          "v-btn",
+                          {
+                            staticClass: "white--text",
+                            attrs: { color: "#E53935" },
+                            on: {
+                              click: function($event) {
+                                ;(_vm.preguntas = 5), (_vm.puntos += 1)
+                              }
+                            }
+                          },
+                          [_vm._v("SI")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "v-btn",
+                          {
+                            staticClass: "white--text",
+                            attrs: { color: "blue" },
+                            on: {
+                              click: function($event) {
+                                _vm.preguntas = 5
+                              }
+                            }
+                          },
+                          [_vm._v("NO")]
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c("v-stepper-step", { attrs: { step: "5", color: "cyan" } }, [
+                  _vm._v("Pregunda 5")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "v-stepper-content",
+                  { attrs: { step: "5" } },
+                  [
+                    _c(
+                      "v-card",
+                      {
+                        staticClass: "mb-5",
+                        attrs: { color: "cyan", height: "100px" }
+                      },
+                      [
+                        _c(
+                          "center",
+                          [
+                            _c("br"),
+                            _vm._v(" "),
+                            _c("br"),
+                            _vm._v(" "),
+                            _c(
+                              "font",
+                              {
+                                staticClass: "white--text",
+                                attrs: { size: "5" }
+                              },
+                              [
+                                _vm._v(
+                                  "¿TU PAREJA TE HA GOLPEADO, ENCERRADO, AMENAZADO DE MUERTE  O ABUSADO SEXUALMENTE?\r\n      "
+                                )
+                              ]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "center",
+                      [
+                        _c(
+                          "v-btn",
+                          {
+                            staticClass: "white--text",
+                            attrs: { color: "#E53935" },
+                            on: {
+                              click: function($event) {
+                                ;(_vm.puntos += 1), _vm.Total()
+                              }
+                            }
+                          },
+                          [_vm._v("SI")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "v-btn",
+                          {
+                            staticClass: "white--text",
+                            attrs: { color: "blue" },
+                            on: {
+                              click: function($event) {
+                                return _vm.Total()
+                              }
+                            }
+                          },
+                          [_vm._v("NO")]
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ]
+        : _vm._e()
     ],
-    1
+    2
   )
 }
 var staticRenderFns = []
@@ -76900,25 +77327,48 @@ var render = function() {
                   _c(
                     "v-flex",
                     [
-                      _c("center", [
-                        _c("h3", { staticClass: "display-3" }, [
-                          _vm._v("¿Sabes lo que es un violentómetro?")
-                        ]),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
-                        _c("span", { staticClass: "subheading" }, [
-                          _vm._v(
-                            "El Violentómetro es una herramienta de gran utilidad la cual permite a hombres y mujeres estar alerta, capacitadas (os) y/o atentas (os) para detectar y atender la violencia en cualquiera de sus tipos y modalidades a través de diferentes manifestaciones, resultando no solo benéfico para las instituciones educativas, sino también en los ámbitos familiar (relaciones de pareja) y laboral."
-                          )
-                        ])
-                      ]),
+                      _c(
+                        "center",
+                        [
+                          _c("v-flex", { staticClass: "hidden-xs-only" }, [
+                            _c("h3", { staticClass: "display-3" }, [
+                              _vm._v("¿Sabes lo que es un violentómetro?")
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "v-flex",
+                            { staticClass: "hidden-sm-and-up" },
+                            [
+                              _c("br"),
+                              _vm._v(" "),
+                              _c("font", { staticClass: "display-1" }, [
+                                _vm._v("¿Sabes lo que es un violentómetro?")
+                              ]),
+                              _vm._v(" "),
+                              _c("br"),
+                              _vm._v(" "),
+                              _c("br")
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("span", { staticClass: "subheading" }, [
+                            _vm._v(
+                              "El Violentómetro es una herramienta de gran utilidad la cual permite a hombres y mujeres estar alerta, capacitadas (os) y/o atentas (os) para detectar y atender la violencia en cualquiera de sus tipos y modalidades a través de diferentes manifestaciones, resultando no solo benéfico para las instituciones educativas, sino también en los ámbitos familiar (relaciones de pareja) y laboral."
+                            )
+                          ])
+                        ],
+                        1
+                      ),
                       _vm._v(" "),
                       _c("v-divider", { staticClass: "my-3" }),
                       _vm._v(" "),
                       _c("center", [
+                        _c("br"),
+                        _vm._v(" "),
+                        _c("br"),
+                        _vm._v(" "),
                         _c("div", { staticClass: "title mb-3" }, [
                           _vm._v("Ve los nievesl del Violentómetro")
                         ])

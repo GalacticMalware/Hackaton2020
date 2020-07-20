@@ -16,14 +16,26 @@
       <v-layout align-center>
         <v-flex>
             <center>
+            <v-flex class="hidden-xs-only">
+            
           <h3 class="display-3">¿Sabes lo que es un violentómetro?</h3>
+            </v-flex>
+            <v-flex class="hidden-sm-and-up">
+            <br />
+          <font class="display-1">¿Sabes lo que es un violentómetro?</font>
             <br />
             <br />
+            </v-flex>
+            
+            
           <span class="subheading">El Violentómetro es una herramienta de gran utilidad la cual permite a hombres y mujeres estar alerta, capacitadas (os) y/o atentas (os) para detectar y atender la violencia en cualquiera de sus tipos y modalidades a través de diferentes manifestaciones, resultando no solo benéfico para las instituciones educativas, sino también en los ámbitos familiar (relaciones de pareja) y laboral.</span>
             
             </center>
           <v-divider class="my-3"></v-divider>
             <center>
+            <br />
+            <br />
+            
           <div class="title mb-3">Ve los nievesl del Violentómetro</div>
             </center>
         </v-flex>
@@ -199,15 +211,13 @@
       :src="'/img/Imagen5.jpg'"
     >
     </v-img>
+
     </v-flex>
 </v-layout>
 
 <br />
 <br />
 <br />
-
-
-
         <v-dialog
                 v-model="EncuestaActivar"
                 max-width="1000px"
@@ -227,7 +237,7 @@
                       </v-toolbar-title>
                       <v-spacer></v-spacer>
                     </v-toolbar>
-    <Encuesta></Encuesta>
+                    <Encuesta></Encuesta>
                     </v-card>
                     
               </v-dialog>

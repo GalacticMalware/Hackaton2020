@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>HACKATON</title>
+<title>SURE RED ALIADA</title>
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
-  
-  
+  <link rel="shortcut icon" href="{{ asset('img/logopdf.png') }}">
+    <link rel="manifest" href="/manifest.json"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>FODAP</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}" >
     <meta name="csrf-token" value="{{ csrf_token() }}" />
     
@@ -21,4 +20,5 @@
     </div>
 </body>
 <script src="{{ mix('js/app.js') }}"></script>
+<script src="script.js"></script>
 </html>

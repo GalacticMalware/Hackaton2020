@@ -1,0 +1,18 @@
+{"name": "SURE RED ALIADA",
+    "short_name": "SURE RED ALIADA",
+    "description": "Generemos consciencia sobre la violencia",
+    "start_url": "./?utm_source=web_app_manifest",
+    "Scope": "/",
+    "display": "standalone",
+    "orientation":"portrait",
+    "lang":"es-MX",
+    "theme_color": "#ff6666",
+    "background_color": "#fff",
+    "icons": [
+      {
+        "src": "/img/logo.png", 
+        "sizes": "309x292", 
+        "type": "image/png" 
+      }
+    ]
+}
