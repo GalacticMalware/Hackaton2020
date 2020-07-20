@@ -44,11 +44,13 @@
                 <!--<v-toolbar-side-icon>Hola</v-toolbar-side-icon> -->
                 <v-toolbar-title class="white--text"></v-toolbar-title>
                 <v-img max-height="60px" max-width="60px":src="'/img/logo.png'"></v-img>
-                <v-layout colum justify-center>
-                    <v-spacer></v-spacer>
-                    <v-layout justify-wrap justify-center>
-                       <v-btn flat icon color="white--text" router-link :to="{ path: '/Contactanos' }"><v-icon style="margin-left:10px;" color="white">contact_mail</v-icon></v-btn>
-                    </v-layout>
+                
+                <v-spacer></v-spacer>
+                    <font size="4">SURE RED ALIADA</font>
+                
+                  
+                    <v-layout  justify-end>
+                       <v-btn style="margin-right:20px;" flat icon large color="white--text" router-link :to="{ path: '/Contactanos' }"><v-icon large color="white">contact_mail</v-icon></v-btn>
                 </v-layout>
             </v-toolbar>
   </v-flex>

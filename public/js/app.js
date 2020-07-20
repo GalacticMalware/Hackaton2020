@@ -2488,15 +2488,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2533,45 +2524,110 @@ __webpack_require__.r(__webpack_exports__);
         direccion: 'Fray Bartolomé de las casas 404, Barrio de la estación, C.P 20259, Aguascalientes.',
         contacto: '(449)9188176 fax: (449) 9188176. contemporanea/_aguascalientes@hotmail.com'
       }, {
-        estado: 'Eclair',
-        organizaion: 262,
-        direccion: 16.0,
-        contacto: 23
+        estado: 'Baja California ',
+        organizaion: 'instituto de la mujer para el estado de Baja  california ',
+        direccion: 'calle Héroes e independencia, Col. Centro comercial Plaza fiestanlocales 14 y 15 "E", C.P 21000, Méxicali ',
+        contacto: 'tijuana: (664) 608 08 88, Mexicali: (686) 558 6364 , bajacalifornia@inmujeres.gob.mx; gnavarro@baja.gob.mx, inmujer2002@yahoo.com; kamiep_td@yahoo.com.mx'
       }, {
-        estado: 'Cupcake',
-        organizaion: 305,
-        direccion: 3.7,
-        contacto: 67
+        estado: 'Baja California ',
+        organizaion: 'Centro de atención a la violencia intrafamiliar en Méxicali, Cavim ',
+        direccion: '',
+        contacto: '(686)5800442, pacavim@yahoo.com; elbasantella@yahoo.com'
       }, {
-        estado: 'Gingerbread',
-        organizaion: 356,
-        direccion: 16.0,
-        contacto: 49
+        estado: 'Baja California sur',
+        organizaion: 'Centro mujeres, A.C ',
+        direccion: 'Av. Márquez de león 480, Col. Centro, C,P 23000, La paz. ',
+        contacto: '(612)1223570, 1223313, 1222570, cmujeres@balandra.uabcs.mx www.centromujeresmexico.org'
       }, {
-        estado: 'Jelly bean',
-        organizaion: 375,
-        direccion: 0.0,
-        contacto: 94
+        estado: 'Campeche ',
+        organizaion: 'instituto estatal de la mujer de campeche ',
+        direccion: 'Av. Adolfo López Mateos 250, por Abasolo, COL. Pensiones, CP 24030, Campeche. ',
+        contacto: '(9891)8112656 campeche@inmujeres,gob.mx , elisel_ C28@yahoo.com.mx, imec@yahoo.com'
       }, {
-        estado: 'Lollipop',
-        organizaion: 392,
-        direccion: 0.2,
-        contacto: 98
+        estado: 'Chiapas',
+        organizaion: 'Instituto de la mujer ',
+        direccion: 'Circunvilación tapachula 111, col. Moctezuma, C.P 29030, Tuxla Gutiérrez. ',
+        contacto: '(961)602 9137, 6029128 fax: 6029146,  instmujer@chiapas.gob.mx, chiapas @inmujeres.gob.mx , www.instmujer.chiapas.gob.mx'
       }, {
-        estado: 'Honeycomb',
-        organizaion: 408,
-        direccion: 3.2,
-        contacto: 87
+        estado: 'Chihuahua',
+        organizaion: 'Instituto chihuahuense de la mujer ',
+        direccion: 'Av. 16 de septiembre y Guatemala 1220, Col. Partida Romero, Ciudad Juaréz C.P 32030. ',
+        contacto: 'ciudad juarez (656)6293300, 635585 fax: 6295241 y 6295242 , Ch9ihuahua 6144293505, fax: 4293300 chihuahua@inmujeres.gob.mx, psaldana@buzon.chihuahua.gob.mx, ramirez@buzon.Chihuahua.gob.mx'
       }, {
-        estado: 'Donut',
-        organizaion: 452,
-        direccion: 25.0,
-        contacto: 51
+        estado: 'Chihuahua',
+        organizaion: 'Mujeres por méxico en Chihuahua, AC, MXM',
+        direccion: 'Morelos 803-1 col. Centro Chihuahua, cp 31000',
+        contacto: '6144101019 fax: 4101019, mproxmx@avantel.net; azoe57@aventel,net; mujermex@prodigy.net.mx'
       }, {
-        estado: 'KitKat',
-        organizaion: 518,
-        direccion: 26.0,
-        contacto: 65
+        estado: 'Coahuila ',
+        organizaion: 'Instituto Coaguilense de las mujeres ',
+        direccion: 'Instituto corona 348, col, zona centro, saltillo, cp. 25000.',
+        contacto: '8444104151, fax122445 coaguilacm@hormail,com, instcoahmujeres@prodigy.net.mx mujeres@coahuila.gob.mx www.coahuila.gob.mx/mensaje.htm '
+      }, {
+        estado: 'Colima',
+        organizaion: 'Instituto colimense de las mujeres ',
+        direccion: 'complejo administrativo del Gobierni del Estado, Tercer Anillo perfiférico, Marcelino García Barragán, Edificio Planta Baja, Cuerpo A, Colima, C.P 28010 ',
+        contacto: '3123162000 ext.2388, 62073/44357 fax: 2073 colima@inmujeres.gob.mx; incemujeres@hotmail.com: Silvia_07@msn.com_ incmujeres01@hotmail.com ww.icmujres.col.gob.mx'
+      }, {
+        estado: 'CDMX',
+        organizaion: 'instituto de las mujeres del distrito federal ',
+        direccion: 'tacuba 76 ir piso, col, centro Histórico, delegación Cuauhtémoc, cp.06010',
+        contacto: '5555103464, 55122762, 55122856 fax:55122762 distritofedralinmujeres.gob.mx luzrosal@df.gobl.mx ww.inmujres.df.gob.mx , luz_esteva@hotmail.com'
+      }, {
+        estado: 'Durango ',
+        organizaion: 'Instituto de la mujer duranguense ',
+        direccion: 'Zaragosa526 sur, zona centro, Durango. COP. 34000 ',
+        contacto: 'durangoinmujres.gob.mx immduranguense@terra.com.mx imd@prodigy.net.mx'
+      }, {
+        estado: 'Guanajuato ',
+        organizaion: 'Instituto de la mujer Guanajustense ',
+        direccion: 'paseo de la presa 97, col. Altos, Guanajuato, 36000',
+        contacto: '4737372402 guanajuato@inmujeres.gob.mx imug@guanajuato.gob.mx rosy_ochoa2001@hotmail.com'
+      }, {
+        estado: 'Guanajuato',
+        organizaion: 'Red de mujeres del bajío ',
+        direccion: 'Nicólas Bravo 202 A, col. Zona centrto, Celaya, CP38000. ',
+        contacto: '4616126492 ceremba@procigy.net.mx'
+      }, {
+        estado: 'Guerrero ',
+        organizaion: 'Secretaria de la mujer del Estado ',
+        direccion: 'Blvd. René Juárez Cisneros 62, Edificio costa chica, piso 2, col. Ciudad de los serrvicios, Chilpancingo, c.p 39074 ',
+        contacto: '7474719892, 4728010, 4719874, 4719884 fax: 4719965 guerreroinmujeres.gob.mx  semujer@prodigy.net.mx www.semujer.gob.mx '
+      }, {
+        estado: 'Hidalgo ',
+        organizaion: 'Instituto hidalguense de la mujer ',
+        direccion: 'Vicente Segura 206 planta Alta, COL. Periodistas, pachuca, CP. 4200 ',
+        contacto: '7710177171, 7151635, 7181407, 7150683 cent.cap. 7152262 cent, cap. 71815 fax: 7150683 hidalgo@inmujeres.gob.mx, dgmujer@ehidalgo.gob.mx; ihm@prodigy.net.mx '
+      }, {
+        estado: 'Jalisco ',
+        organizaion: 'Instituto jalisciense de las mujeres ',
+        direccion: 'Miguel blanco 833, col. Centro, Guadalajara c.p 44100. ',
+        contacto: '3336583167, 6583174, 6583166, 6583170 jalisco@inmujeres.gob.mx; mujer@jalisco.gob.mx csalas77@hotmail.com'
+      }, {
+        estado: 'Estado de méxico ',
+        organizaion: 'Instituto méxiquense de la mujer',
+        direccion: 'Independencia poniente q06, tercer piso, Toluca ',
+        contacto: '5555103464, 55122762/65, 55122845 fax: 55122762 edomexico@inmujeres.gob.mx, inmem@edomex.gob.mx; www.imem.gob.mx'
+      }, {
+        estado: 'Estado de méxico ',
+        organizaion: 'Servicios de atención integral para la mujer, AC, SEA IPM ',
+        direccion: 'Av. Sor juna inés de la cruz 666, Benito juaréz, Nezahualcóyotl, cp.57000. ',
+        contacto: '5555129426, cel: 0445518496146 fax: 511129426 mexpdh@prodigy.net.mx '
+      }, {
+        estado: 'Morelos',
+        organizaion: 'Istituto de la mujer para el Estado de Morelos ',
+        direccion: 'Dr. Manuel Maziri 206, colonia Miraval, Cuernavaca, CP. 62270 |',
+        contacto: '735 310 3024, 310 30 25  fax: 310 30 25  morelosinmujeres.gob.mx morales_ avila@hormail.com institutodelamujerdemorelos@hotmailail.com fan44_hotmail.com'
+      }, {
+        estado: 'Nayarit ',
+        organizaion: 'Instituo de la mujer Nayarita ',
+        direccion: 'Zacatecas q7 sur, interior 2y3, colo. Centro Tepic.',
+        contacto: '3112170377 nayarit@inmujeres.gob.mx  inmunay@hotmail.com'
+      }, {
+        estado: 'Sonora ',
+        organizaion: 'Instituto Sonorense de la mujer ',
+        direccion: 'Centro de Gobiern, Edificio Sonora, 3er. Nivel Ala Norte, Boulevard Paseo Río Sonora y Comonfort, Col. Villa de seris, HERmosillo, C.P 83280. 662 212 0340 ext. 16/212 3630, 018006729959 fax:2127914 sonora@inmujeres.gob.mx; mujer@rtn.uson.mx; mariaesthernf@hotmail.com',
+        contacto: '99331399412 fax:3155226 tabascoinmujeres.gob.mx sperez@inmujeres.gob.mx dulcevictoria86@yahoo.com.mx '
       }]
     };
   }
@@ -3235,6 +3291,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
 //
 //
 //
@@ -77864,7 +77922,14 @@ var render = function() {
             attrs: {
               headers: _vm.headers,
               items: _vm.desserts,
-              search: _vm.search
+              search: _vm.search,
+              "rows-per-page-items": [
+                5,
+                10,
+                25,
+                { text: "TODOS LOS DATOS", value: -1 }
+              ],
+              "rows-per-page-text": "PÁGINAS"
             },
             scopedSlots: _vm._u([
               {
@@ -77900,9 +77965,9 @@ var render = function() {
                       },
                       [
                         _vm._v(
-                          '\n        Your search for "' +
+                          '\n        No se encontro "' +
                             _vm._s(_vm.search) +
-                            '" found no results.\n      '
+                            '" .\n      '
                         )
                       ]
                     )
@@ -77911,51 +77976,13 @@ var render = function() {
                 proxy: true
               }
             ])
-          })
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "v-snackbar",
-        {
-          attrs: {
-            "multi-line": true,
-            right: true,
-            timeout: 3000,
-            top: true,
-            color: "success"
-          },
-          model: {
-            value: _vm.NotificacionSuccess,
-            callback: function($$v) {
-              _vm.NotificacionSuccess = $$v
-            },
-            expression: "NotificacionSuccess"
-          }
-        },
-        [
-          _c("v-icon", { attrs: { left: "", color: "white" } }, [
-            _vm._v("check_circle")
-          ]),
+          }),
           _vm._v(" "),
-          _c("font", { attrs: { size: "3" } }, [
-            _vm._v(_vm._s(_vm.textoSuccess))
-          ]),
+          _c("br"),
           _vm._v(" "),
-          _c(
-            "v-btn",
-            {
-              attrs: { flat: "" },
-              on: {
-                click: function($event) {
-                  _vm.NotificacionSuccess = false
-                }
-              }
-            },
-            [_c("v-icon", { attrs: { color: "white" } }, [_vm._v("cancel")])],
-            1
-          )
+          _c("br"),
+          _vm._v(" "),
+          _c("br")
         ],
         1
       )
@@ -79436,39 +79463,31 @@ var render = function() {
                 }
               }),
               _vm._v(" "),
+              _c("v-spacer"),
+              _vm._v(" "),
+              _c("font", { attrs: { size: "4" } }, [_vm._v("SURE RED ALIADA")]),
+              _vm._v(" "),
               _c(
                 "v-layout",
-                { attrs: { colum: "", "justify-center": "" } },
+                { attrs: { "justify-end": "" } },
                 [
-                  _c("v-spacer"),
-                  _vm._v(" "),
                   _c(
-                    "v-layout",
-                    { attrs: { "justify-wrap": "", "justify-center": "" } },
+                    "v-btn",
+                    {
+                      staticStyle: { "margin-right": "20px" },
+                      attrs: {
+                        flat: "",
+                        icon: "",
+                        large: "",
+                        color: "white--text",
+                        "router-link": "",
+                        to: { path: "/Contactanos" }
+                      }
+                    },
                     [
-                      _c(
-                        "v-btn",
-                        {
-                          attrs: {
-                            flat: "",
-                            icon: "",
-                            color: "white--text",
-                            "router-link": "",
-                            to: { path: "/Contactanos" }
-                          }
-                        },
-                        [
-                          _c(
-                            "v-icon",
-                            {
-                              staticStyle: { "margin-left": "10px" },
-                              attrs: { color: "white" }
-                            },
-                            [_vm._v("contact_mail")]
-                          )
-                        ],
-                        1
-                      )
+                      _c("v-icon", { attrs: { large: "", color: "white" } }, [
+                        _vm._v("contact_mail")
+                      ])
                     ],
                     1
                   )
