@@ -3503,11 +3503,49 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       AcercaDe: true,
       Instalar: false,
+      Info: false,
       e1: 0
     };
   },
@@ -79736,6 +79774,32 @@ var render = function() {
                               )
                             ],
                             1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "v-list-tile",
+                            {
+                              nativeOn: {
+                                click: function($event) {
+                                  _vm.Info = true
+                                }
+                              }
+                            },
+                            [
+                              _c(
+                                "v-list-tile-title",
+                                [
+                                  _vm._v("Creditos "),
+                                  _c(
+                                    "v-icon",
+                                    { staticStyle: { "margin-left": "10px" } },
+                                    [_vm._v("info")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
                           )
                         ],
                         1
@@ -80048,6 +80112,93 @@ var render = function() {
                       )
                     ],
                     1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-dialog",
+        {
+          attrs: { width: "500", persistent: "" },
+          model: {
+            value: _vm.Info,
+            callback: function($$v) {
+              _vm.Info = $$v
+            },
+            expression: "Info"
+          }
+        },
+        [
+          _c(
+            "v-card",
+            {
+              staticClass: " white--text text-xs-center",
+              attrs: { flat: "", tile: "" }
+            },
+            [
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "v-card-text",
+                { staticClass: "white--text pt-0" },
+                [
+                  _c(
+                    "center",
+                    [
+                      _c("v-img", {
+                        attrs: {
+                          "max-height": "180px",
+                          "max-width": "180px",
+                          src: "/img/logo.png"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c(
+                        "font",
+                        { staticClass: "black--text", attrs: { size: "4" } },
+                        [_vm._v('"Generemos consciencia sobre la violencia"')]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("v-divider"),
+              _vm._v(" "),
+              _c(
+                "v-card-text",
+                { staticClass: "black--text" },
+                [
+                  _vm._v("\n      ©2020 -"),
+                  _c("strong", [_vm._v(" Equipo SEG - 052")]),
+                  _vm._v(" "),
+                  _c("br"),
+                  _vm._v(" "),
+                  _c("br"),
+                  _vm._v(" "),
+                  _c(
+                    "v-btn",
+                    {
+                      staticClass: "white--text",
+                      attrs: { color: "cyan" },
+                      nativeOn: {
+                        click: function($event) {
+                          _vm.Info = false
+                        }
+                      }
+                    },
+                    [_vm._v("Continuar")]
                   )
                 ],
                 1

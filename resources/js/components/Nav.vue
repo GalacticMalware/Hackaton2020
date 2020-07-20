@@ -68,6 +68,9 @@
         <v-list-tile @click.native="Instalar = true">
           <v-list-tile-title>Instalar App <v-icon style="margin-left:10px">smartphone</v-icon></v-list-tile-title>
         </v-list-tile>
+        <v-list-tile @click.native="Info = true">
+          <v-list-tile-title>Creditos <v-icon style="margin-left:10px">info</v-icon></v-list-tile-title>
+        </v-list-tile>
       </v-list>
     </v-menu>
                 </v-layout>
@@ -186,6 +189,40 @@
   </v-stepper>
       </v-card>
     </v-dialog>
+    
+    <v-dialog
+      v-model="Info"
+      width="500"
+      persistent
+    >
+      
+    <v-card
+      flat
+      tile
+      class=" white--text text-xs-center"
+    >
+      
+        <br />
+      
+      <v-card-text class="white--text pt-0">
+      
+        <center>
+        <v-img max-height="180px" max-width="180px" :src="'/img/logo.png'"></v-img>
+        <br />
+        <font size="4" class="black--text">"Generemos consciencia sobre la violencia"</font>
+        </center>    
+        </v-card-text>
+
+      <v-divider></v-divider>
+
+      <v-card-text class="black--text">
+        &copy;2020 -<strong> Equipo SEG - 052</strong>
+        <br />
+        <br />
+        <v-btn color="cyan" class="white--text" @click.native="Info = false">Continuar</v-btn>
+      </v-card-text>
+    </v-card>
+    </v-dialog>
 
     
 
@@ -199,6 +236,7 @@ export default {
         return {
             AcercaDe: true,
             Instalar:false,
+            Info:false,
              e1: 0
         }
     },
