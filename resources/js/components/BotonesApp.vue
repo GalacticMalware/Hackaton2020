@@ -1,7 +1,6 @@
 <template>
 <div>
 <v-footer fixed>
-      
     <v-bottom-nav
       :active.sync="bottomNav"
       :color="color"
@@ -51,7 +50,6 @@
                         <span class="headline">Encuesta</span>
                       </v-layout>
                       </v-toolbar-title>
-                      
                       
                     </v-toolbar>
                     <Encuesta></Encuesta>

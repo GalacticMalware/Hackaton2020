@@ -23,6 +23,7 @@
                         <v-btn flat color="#ff6666" router-link :to="{ path: '/Contactanos' }">Contactos<v-icon style="margin-left:10px;" color="pink">contact_mail</v-icon></v-btn>
                     </v-layout>
                 </v-layout>
+                
             </v-toolbar>
             <br />
         <br />

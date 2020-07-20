@@ -2010,8 +2010,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -2437,6 +2435,138 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Informativo/TablaApp.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Informativo/TablaApp.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      desserts: [{
+        nivel: 1,
+        agrecion: 'Broma hirientes'
+      }, {
+        nivel: 2,
+        agrecion: 'Chantajear'
+      }, {
+        nivel: 3,
+        agrecion: 'Mentiras, engaños'
+      }, {
+        nivel: 4,
+        agrecion: 'Ignorar, ley de hielo'
+      }, {
+        nivel: 5,
+        agrecion: 'Celar'
+      }, {
+        nivel: 6,
+        agrecion: 'Culpabilizar'
+      }, {
+        nivel: 7,
+        agrecion: 'Ridiculizar, ofender'
+      }, {
+        nivel: 8,
+        agrecion: 'Humillar en publico'
+      }, {
+        nivel: 9,
+        agrecion: 'Intimidar, amenazar'
+      }, {
+        nivel: 10,
+        agrecion: 'Controlar, prohibir'
+      }, {
+        nivel: 11,
+        agrecion: 'Destruir articulos personales'
+      }, {
+        nivel: 12,
+        agrecion: 'Menosear'
+      }, {
+        nivel: 13,
+        agrecion: 'Caricias agresivas'
+      }, {
+        nivel: 14,
+        agrecion: 'Golpear "Jugando"'
+      }, {
+        nivel: 15,
+        agrecion: 'Pellizcar,arañar'
+      }, {
+        nivel: 16,
+        agrecion: 'Cachetear'
+      }, {
+        nivel: 17,
+        agrecion: 'Patear'
+      }, {
+        nivel: 18,
+        agrecion: 'Encerrar, aislar'
+      }, {
+        nivel: 19,
+        agrecion: 'menazar de con objetos o armas'
+      }, {
+        nivel: 20,
+        agrecion: 'Amenazar de muerte'
+      }, {
+        nivel: 21,
+        agrecion: 'Forzar a una relación sexual'
+      }, {
+        nivel: 22,
+        agrecion: 'Violar'
+      }, {
+        nivel: 23,
+        agrecion: 'Mutilar'
+      }, {
+        nivel: 24,
+        agrecion: 'ASESINAR'
+      }]
+    };
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Informativo/Violentrometro.vue?vue&type=script&lang=js&":
 /*!*************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Informativo/Violentrometro.vue?vue&type=script&lang=js& ***!
@@ -2515,6 +2645,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Encuesta__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Encuesta */ "./resources/js/components/Encuesta.vue");
 /* harmony import */ var _Informativo_Violentrometro__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Informativo/Violentrometro */ "./resources/js/components/Informativo/Violentrometro.vue");
+/* harmony import */ var _Informativo_TablaApp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Informativo/TablaApp */ "./resources/js/components/Informativo/TablaApp.vue");
 //
 //
 //
@@ -2762,12 +2893,107 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     Encuesta: _Encuesta__WEBPACK_IMPORTED_MODULE_0__["default"],
-    Violentrometro: _Informativo_Violentrometro__WEBPACK_IMPORTED_MODULE_1__["default"]
+    Violentrometro: _Informativo_Violentrometro__WEBPACK_IMPORTED_MODULE_1__["default"],
+    TablaViolentrometro: _Informativo_TablaApp__WEBPACK_IMPORTED_MODULE_2__["default"]
   },
   mounted: function mounted() {
     console.log("Import");
@@ -2792,6 +3018,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -77222,6 +77449,97 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Informativo/TablaApp.vue?vue&type=template&id=7d2a3e2a&":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Informativo/TablaApp.vue?vue&type=template&id=7d2a3e2a& ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c(
+        "v-layout",
+        { attrs: { column: "", "justify-center": "", "align-center": "" } },
+        [_c("v-subheader", [_vm._v("Violentómetro")])],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-container",
+        {
+          staticClass: "scroll-y",
+          staticStyle: { "max-height": "400px" },
+          attrs: { id: "scroll-target" }
+        },
+        [
+          _c("v-data-table", {
+            staticClass: "elevation-1",
+            attrs: {
+              items: _vm.desserts,
+              "hide-actions": "",
+              "hide-headers": ""
+            },
+            scopedSlots: _vm._u([
+              {
+                key: "items",
+                fn: function(props) {
+                  return [
+                    _c("td", { staticClass: "text-xs-center" }, [
+                      _vm._v(_vm._s(props.item.nivel))
+                    ]),
+                    _vm._v(" "),
+                    _c("td", { staticClass: "text-xs-center" }, [
+                      _vm._v(_vm._s(props.item.agrecion))
+                    ])
+                  ]
+                }
+              }
+            ])
+          }),
+          _vm._v(" "),
+          _c("v-layout", {
+            directives: [
+              {
+                name: "scroll",
+                rawName: "v-scroll:#scroll-target",
+                value: _vm.onScroll,
+                expression: "onScroll",
+                arg: "#scroll-target"
+              }
+            ],
+            staticStyle: { height: "auto" },
+            attrs: { column: "", "align-center": "", "justify-center": "" }
+          })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Informativo/Violentrometro.vue?vue&type=template&id=01695a75&":
 /*!*****************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Informativo/Violentrometro.vue?vue&type=template&id=01695a75& ***!
@@ -77303,19 +77621,21 @@ var render = function() {
         attrs: { width: "626", height: "352", src: "/img/Propo.jpg" }
       }),
       _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
       _c(
         "v-jumbotron",
         [
+          _c("br"),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
           _c(
             "v-container",
             { attrs: { "fill-height": "" } },
@@ -77386,7 +77706,136 @@ var render = function() {
         1
       ),
       _vm._v(" "),
-      _c("Violentrometro"),
+      _c(
+        "v-flex",
+        { staticClass: "hidden-xs-only" },
+        [_c("Violentrometro")],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-flex",
+        { staticClass: "hidden-sm-and-up" },
+        [_c("TablaViolentrometro")],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-jumbotron",
+        [
+          _c("br"),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c(
+            "v-container",
+            { attrs: { "fill-height": "" } },
+            [
+              _c(
+                "v-layout",
+                { attrs: { "align-center": "" } },
+                [
+                  _c(
+                    "v-flex",
+                    [
+                      _c(
+                        "center",
+                        [
+                          _c("v-flex", { staticClass: "hidden-xs-only" }, [
+                            _c("h3", { staticClass: "display-3" }, [
+                              _vm._v(
+                                "Ahora sabes los nivel de violencia que sufren muchas mujeres."
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("br"),
+                            _vm._v(" "),
+                            _c("h4", { staticClass: "display-1" }, [
+                              _vm._v(
+                                "Te invitamos a participar en nuestra encuesta."
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "v-flex",
+                            { staticClass: "hidden-sm-and-up" },
+                            [
+                              _c("font", { staticClass: "display-1" }, [
+                                _vm._v(
+                                  "Ahora sabes los nivel de violencia que sufren muchas mujeres."
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("br"),
+                              _vm._v(" "),
+                              _c("br"),
+                              _vm._v(" "),
+                              _c("font", { attrs: { size: "3" } }, [
+                                _vm._v(
+                                  "Te invitamos a participar en nuestra encuesta."
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("br"),
+                              _vm._v(" "),
+                              _c("br")
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("br"),
+                          _vm._v(" "),
+                          _c("br"),
+                          _vm._v(" "),
+                          _c(
+                            "v-btn",
+                            {
+                              staticClass: "white--text",
+                              attrs: { color: "#ff6666", large: "" },
+                              on: {
+                                click: function($event) {
+                                  _vm.EncuestaActivar = true
+                                }
+                              }
+                            },
+                            [
+                              _vm._v("Encuesta"),
+                              _c(
+                                "v-icon",
+                                { staticStyle: { "margin-left": "10px" } },
+                                [_vm._v("sticky_note_2")]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("br"),
+                          _vm._v(" "),
+                          _c("br"),
+                          _vm._v(" "),
+                          _c("br")
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("v-divider", { staticClass: "my-3" })
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
       _vm._v(" "),
       _c(
         "v-flex",
@@ -77449,27 +77898,32 @@ var render = function() {
                                           },
                                           [
                                             _c(
-                                              "v-layout",
+                                              "v-flex",
                                               {
-                                                attrs: { "justify-center": "" }
+                                                attrs: {
+                                                  xs8: "",
+                                                  sm8: "",
+                                                  md8: "",
+                                                  lg8: "",
+                                                  xl8: ""
+                                                }
                                               },
                                               [
                                                 _c(
-                                                  "v-flex",
+                                                  "v-layout",
                                                   {
                                                     attrs: {
-                                                      xs8: "",
-                                                      sm8: "",
-                                                      md8: "",
-                                                      lg8: "",
-                                                      xl8: ""
+                                                      "justify-left": ""
                                                     }
                                                   },
                                                   [
-                                                    _vm._v(
-                                                      "\n                                                Muchas veces creemos estar bien con nosotras mismas\n                                            "
-                                                    )
-                                                  ]
+                                                    _c("center", [
+                                                      _vm._v(
+                                                        "\n                                               No tienes por que sentirse sola.\n                                            "
+                                                      )
+                                                    ])
+                                                  ],
+                                                  1
                                                 )
                                               ],
                                               1
@@ -77486,6 +77940,10 @@ var render = function() {
                           }
                         ])
                       }),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("br"),
                       _vm._v(" "),
                       _c("br"),
                       _vm._v(" "),
@@ -77520,51 +77978,68 @@ var render = function() {
                                       "aspect-ratio": 16 / 9,
                                       width: "626",
                                       height: "352",
-                                      src: "/img/Imagen3.jpg"
+                                      src: "/img/Imagen6.jpg"
                                     }
                                   }),
                                   _vm._v(" "),
-                                  _c("v-expand-transition", [
-                                    hover
-                                      ? _c(
-                                          "div",
-                                          {
-                                            staticClass:
-                                              "d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-3 white--text",
-                                            staticStyle: { height: "100%" }
-                                          },
-                                          [
-                                            _c(
-                                              "v-layout",
-                                              {
-                                                attrs: { "justify-center": "" }
-                                              },
-                                              [
-                                                _c(
-                                                  "v-flex",
-                                                  {
-                                                    attrs: {
-                                                      xs8: "",
-                                                      sm8: "",
-                                                      md8: "",
-                                                      lg8: "",
-                                                      xl8: ""
-                                                    }
-                                                  },
-                                                  [
-                                                    _vm._v(
-                                                      "\n                                                En ocaciones nos hace sentir mal.\n                                            "
-                                                    )
-                                                  ]
-                                                )
-                                              ],
-                                              1
-                                            )
-                                          ],
-                                          1
-                                        )
-                                      : _vm._e()
-                                  ])
+                                  _c(
+                                    "v-expand-transition",
+                                    [
+                                      _c(
+                                        "v-layout",
+                                        { staticClass: "hidden-xs-only" },
+                                        [
+                                          hover
+                                            ? _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "d-flex transition-fast-in-fast-out black darken-2 v-card--reveal display-3 white--text",
+                                                  staticStyle: {
+                                                    height: "100%"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "v-layout",
+                                                    {
+                                                      attrs: {
+                                                        "justify-center": ""
+                                                      }
+                                                    },
+                                                    [
+                                                      _c(
+                                                        "v-flex",
+                                                        {
+                                                          attrs: {
+                                                            xs10: "",
+                                                            sm10: "",
+                                                            md10: "",
+                                                            lg10: "",
+                                                            xl10: ""
+                                                          }
+                                                        },
+                                                        [
+                                                          _c("center", [
+                                                            _vm._v(
+                                                              "\n                                                El trato que te da una persona agresiva no solo te afecta a ti, afecta a tus seres queridos.\n                                            "
+                                                            )
+                                                          ])
+                                                        ],
+                                                        1
+                                                      )
+                                                    ],
+                                                    1
+                                                  )
+                                                ],
+                                                1
+                                              )
+                                            : _vm._e()
+                                        ]
+                                      )
+                                    ],
+                                    1
+                                  )
                                 ],
                                 1
                               )
@@ -77572,6 +78047,14 @@ var render = function() {
                           }
                         ])
                       }),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("br"),
                       _vm._v(" "),
                       _c("v-hover", {
                         scopedSlots: _vm._u([
@@ -77626,18 +78109,21 @@ var render = function() {
                                                   "v-flex",
                                                   {
                                                     attrs: {
-                                                      xs8: "",
-                                                      sm8: "",
-                                                      md8: "",
-                                                      lg8: "",
-                                                      xl8: ""
+                                                      xs10: "",
+                                                      sm10: "",
+                                                      md10: "",
+                                                      lg10: "",
+                                                      xl10: ""
                                                     }
                                                   },
                                                   [
-                                                    _vm._v(
-                                                      "\n                                                Algo...\n                                            "
-                                                    )
-                                                  ]
+                                                    _c("center", [
+                                                      _vm._v(
+                                                        "\n                                                Tu puedes cambiar esto.\n                                            "
+                                                      )
+                                                    ])
+                                                  ],
+                                                  1
                                                 )
                                               ],
                                               1
@@ -77654,6 +78140,14 @@ var render = function() {
                           }
                         ])
                       }),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("br"),
                       _vm._v(" "),
                       _c("v-hover", {
                         scopedSlots: _vm._u([
@@ -77716,39 +78210,45 @@ var render = function() {
                                                     }
                                                   },
                                                   [
-                                                    _vm._v(
-                                                      "\n                                                Te invitamos a participar en nuestra encuesta.\n                                                "
-                                                    ),
                                                     _c(
-                                                      "v-btn",
-                                                      {
-                                                        attrs: {
-                                                          color: "#e17e6e",
-                                                          large: ""
-                                                        },
-                                                        on: {
-                                                          click: function(
-                                                            $event
-                                                          ) {
-                                                            _vm.EncuestaActivar = true
-                                                          }
-                                                        }
-                                                      },
+                                                      "center",
                                                       [
-                                                        _vm._v("Encuesta"),
+                                                        _vm._v(
+                                                          "\n                                                Te invitamos a participar en nuestra encuesta.\n                                                "
+                                                        ),
                                                         _c(
-                                                          "v-icon",
+                                                          "v-btn",
                                                           {
-                                                            staticStyle: {
-                                                              "margin-left":
-                                                                "10px"
+                                                            attrs: {
+                                                              color: "#e17e6e",
+                                                              large: ""
+                                                            },
+                                                            on: {
+                                                              click: function(
+                                                                $event
+                                                              ) {
+                                                                _vm.EncuestaActivar = true
+                                                              }
                                                             }
                                                           },
                                                           [
-                                                            _vm._v(
-                                                              "sticky_note_2"
+                                                            _vm._v("Encuesta"),
+                                                            _c(
+                                                              "v-icon",
+                                                              {
+                                                                staticStyle: {
+                                                                  "margin-left":
+                                                                    "10px"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "sticky_note_2"
+                                                                )
+                                                              ]
                                                             )
-                                                          ]
+                                                          ],
+                                                          1
                                                         )
                                                       ],
                                                       1
@@ -77939,6 +78439,45 @@ var render = function() {
               ),
               _vm._v(" "),
               _c("Encuesta")
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-flex",
+        { staticClass: "hidden-xs-only" },
+        [
+          _c(
+            "v-footer",
+            { attrs: { dark: "", height: "auto" } },
+            [
+              _c(
+                "v-card",
+                {
+                  staticClass: "black lighten-1 white--text text-xs-center",
+                  attrs: { color: "#ff6666", flat: "", tile: "" }
+                },
+                [
+                  _c("v-card-text"),
+                  _vm._v(" "),
+                  _c("v-card-text", { staticClass: "white--text pt-0" }, [
+                    _vm._v(
+                      "\n      Creamos una iniciativa escalable partiendo desde la prevención, información y educación donde se genere un sentido de autoconciencia de la violencia. No se puede ayudar a quien no reconoce esta situación en su vida.\n      "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("v-divider"),
+                  _vm._v(" "),
+                  _c("v-card-text", { staticClass: "white--text" }, [
+                    _vm._v("\n        ©2018 — "),
+                    _c("strong", [_vm._v("Equipo SEG - 052")])
+                  ])
+                ],
+                1
+              )
             ],
             1
           )
@@ -119876,6 +120415,75 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 component.options.__file = "resources/js/components/Informativo/Directorio.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Informativo/TablaApp.vue":
+/*!**********************************************************!*\
+  !*** ./resources/js/components/Informativo/TablaApp.vue ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TablaApp_vue_vue_type_template_id_7d2a3e2a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TablaApp.vue?vue&type=template&id=7d2a3e2a& */ "./resources/js/components/Informativo/TablaApp.vue?vue&type=template&id=7d2a3e2a&");
+/* harmony import */ var _TablaApp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TablaApp.vue?vue&type=script&lang=js& */ "./resources/js/components/Informativo/TablaApp.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TablaApp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TablaApp_vue_vue_type_template_id_7d2a3e2a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TablaApp_vue_vue_type_template_id_7d2a3e2a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Informativo/TablaApp.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Informativo/TablaApp.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/components/Informativo/TablaApp.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TablaApp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./TablaApp.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Informativo/TablaApp.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TablaApp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Informativo/TablaApp.vue?vue&type=template&id=7d2a3e2a&":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/components/Informativo/TablaApp.vue?vue&type=template&id=7d2a3e2a& ***!
+  \*****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TablaApp_vue_vue_type_template_id_7d2a3e2a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./TablaApp.vue?vue&type=template&id=7d2a3e2a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Informativo/TablaApp.vue?vue&type=template&id=7d2a3e2a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TablaApp_vue_vue_type_template_id_7d2a3e2a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TablaApp_vue_vue_type_template_id_7d2a3e2a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 
