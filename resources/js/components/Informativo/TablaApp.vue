@@ -4,7 +4,7 @@
 <br />
 <br />
 <v-layout column justify-center align-center>
-      <v-subheader>Violentómetro</v-subheader>
+      <v-subheader>Violentrómetro</v-subheader>
     </v-layout>
     <v-container
       id="scroll-target"

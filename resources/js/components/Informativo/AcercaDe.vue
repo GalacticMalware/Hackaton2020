@@ -1,10 +1,9 @@
   <template>
-<div>
-<v-flex class="hidden-sm-and-up">
+<div>          
 <br />
             <br />
             <br />
-            </v-flex>
+            
   <v-timeline>
     <v-timeline-item
       color="red lighten-2"

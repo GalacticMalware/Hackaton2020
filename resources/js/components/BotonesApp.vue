@@ -24,10 +24,11 @@
         <v-icon>menu_book</v-icon>
       </v-btn>
 
-      <v-btn dark @click="EncuestaActivar = true">
+     <!-- <v-btn dark @click="EncuestaActivar = true">
         <span>Test</span>
         <v-icon>sticky_note_2</v-icon>
       </v-btn>
+      -->
     </v-bottom-nav>
     <v-dialog
                 v-model="EncuestaActivar"

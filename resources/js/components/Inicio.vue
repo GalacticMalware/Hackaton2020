@@ -19,17 +19,17 @@
         <v-flex>
             <center>
             <v-flex class="hidden-xs-only">
-          <h3 class="display-3">¿Sabes lo que es un violentómetro?</h3>
+          <h3 class="display-3">¿Sabes lo que es un violentrómetro?</h3>
             </v-flex>
             <v-flex class="hidden-sm-and-up">
             <br />
-          <font class="display-1">¿Sabes lo que es un violentómetro?</font>
+          <font class="display-1">¿Sabes lo que es un violentrómetro?</font>
             <br />
             <br />
             </v-flex>
             
             
-          <span class="subheading">El Violentómetro es una herramienta de gran utilidad la cual permite a hombres y mujeres estar alerta, capacitadas (os) y/o atentas (os) para detectar y atender la violencia en cualquiera de sus tipos y modalidades a través de diferentes manifestaciones, resultando no solo benéfico para las instituciones educativas, sino también en los ámbitos familiar (relaciones de pareja) y laboral.</span>
+          <span class="subheading">El Violentrómetro es una herramienta de gran utilidad la cual permite a hombres y mujeres estar alerta, capacitadas (os) y/o atentas (os) para detectar y atender la violencia en cualquiera de sus tipos y modalidades a través de diferentes manifestaciones, resultando no solo benéfico para las instituciones educativas, sino también en los ámbitos familiar (relaciones de pareja) y laboral.</span>
             
             </center>
           <v-divider class="my-3"></v-divider>
@@ -37,7 +37,7 @@
             <br />
             <br />
             
-          <div class="title mb-3">Ve los nievesl del Violentómetro</div>
+          <div class="title mb-3">Ve los nievesl del Violentrómetro</div>
             </center>
         </v-flex>
       </v-layout>
@@ -81,13 +81,27 @@
             </center>
             <br/>
           <v-divider class="my-3"></v-divider>
-            
+            <br/>
+            <br/>
+            <br/>
+            <center>
+            </center>
+            <br/>
+            <br/>
+            <br/>
         </v-flex>
       </v-layout>
     </v-container>
   </v-jumbotron>
     
      <v-flex xs sm md lg xl class="hidden-xs-only">
+     <br />
+     <br />
+     <center>
+            <h4 class="display-1" >Tip : Acerca el cursor a la imagen.</h4>
+            </center>
+<br />
+<br />
         <v-card>        
             <v-card-text>
                 <v-container grid-list-md>

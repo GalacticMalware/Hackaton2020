@@ -21,6 +21,7 @@
                         <v-btn flat color="#ff6666" router-link :to="{ path: '/AcercaDe' }">Acerca de <v-icon style="margin-left:10px;" color="pink">info</v-icon></v-btn>
                         <v-btn flat color="#ff6666" router-link :to="{ path: '/Directorio' }">Directorio <v-icon style="margin-left:10px;" color="pink">import_contacts</v-icon></v-btn>
                         <v-btn flat color="#ff6666" router-link :to="{ path: '/Contactanos' }">Contactos<v-icon style="margin-left:10px;" color="pink">contact_mail</v-icon></v-btn>
+                        <v-btn flat color="#ff6666" @click.native="Instalar = true">Instala la APP<v-icon style="margin-left:10px;" color="pink">smartphone</v-icon></v-btn>
                     </v-layout>
                 </v-layout>
                 
@@ -50,12 +51,145 @@
                 
                   
                     <v-layout  justify-end>
-                       <v-btn style="margin-right:20px;" flat icon large color="white--text" router-link :to="{ path: '/Contactanos' }"><v-icon large color="white">contact_mail</v-icon></v-btn>
+                        <v-menu offset-y>
+      <template v-slot:activator="{ on }">
+        <v-btn
+          flat
+          icon
+           v-on="on"
+        >
+          <v-icon large>more_vert</v-icon>
+        </v-btn>
+      </template>
+      <v-list>
+        <v-list-tile router-link :to="{ path: '/Contactanos' }">
+          <v-list-tile-title>Contactanos <v-icon style="margin-left:10px">contact_mail</v-icon></v-list-tile-title>
+        </v-list-tile>
+        <v-list-tile @click.native="Instalar = true">
+          <v-list-tile-title>Instalar App <v-icon style="margin-left:10px">smartphone</v-icon></v-list-tile-title>
+        </v-list-tile>
+      </v-list>
+    </v-menu>
                 </v-layout>
             </v-toolbar>
   </v-flex>
-    </div>
+    
+    <v-dialog
+      v-model="Instalar"
+      width="500"
+      persistent
+    >
+      
 
+      <v-card>
+        <v-stepper v-model="e1">
+    <v-stepper-header>
+      <v-stepper-step :complete="e1 > 1" step="1" color="cyan">Paso 1</v-stepper-step>
+
+      <v-divider></v-divider>
+
+      <v-stepper-step :complete="e1 > 2" step="2" color="cyan">Paso 2</v-stepper-step>
+
+      <v-divider></v-divider>
+
+      <v-stepper-step :complete="e1 > 3" step="3" color="cyan">Paso 3</v-stepper-step>
+        
+        <v-divider></v-divider>
+
+       <v-stepper-step step="4" color="cyan">Paso 4</v-stepper-step>
+    </v-stepper-header>
+
+    <v-stepper-items>
+      <v-stepper-content step="1">
+        <v-card
+          class="mb-5"
+          color="white"
+          height="200px"
+        >
+        <v-img max-height="180px" :src="'/img/instalar1.jpeg'"> </v-img>
+        <center>
+        <font size="4">Pulsamos el botón <v-icon>more_vert</v-icon></font>
+        </center>
+        </v-card>
+        <center>
+        <v-btn
+          color="cyan"
+          class="white--text"
+          @click="e1 = 2"
+        >
+          Continuar
+        </v-btn>
+        </center>
+      </v-stepper-content>
+
+      <v-stepper-content step="2">
+        <v-card
+          class="mb-5"
+          color="white"
+          height="200px"
+        >
+        <v-img max-height="200px" :src="'/img/instalar2.jpeg'"> </v-img>
+        </v-card>
+        <center>
+        <v-btn
+            class="white--text"
+          color="cyan"
+          @click="e1 = 3"
+        >
+          Continuar
+        </v-btn>
+        </center>
+        
+      </v-stepper-content>
+
+      <v-stepper-content step="3">
+        <v-card
+          class="mb-5"
+          color="white"
+          height="200px"
+        >
+         <v-img max-height="200px" :src="'/img/instalar3.jpeg'"> </v-img>
+        </v-card>
+        <center>
+        <v-btn
+            class="white--text"
+          color="cyan"
+          @click="e1 = 4"
+        >
+          Continuar
+        </v-btn>
+        </center>
+      </v-stepper-content>
+      <v-stepper-content step="4">
+        <v-card
+          class="mb-5"
+          color="white"
+          height="200px"
+        >
+         <v-img max-height="150px" :src="'/img/instalar4.jpeg'"> </v-img>
+            
+            <center style="margin-top:10px;">
+        <font  size="4">Listo ya tienes la APP <v-icon>smartphone</v-icon></font>
+        </center>
+        </v-card>
+        <center>
+        <v-btn
+          color="cyan"
+          class="white--text"
+          @click="e1 = 1, Instalar = false"
+        >
+          Continuar
+        </v-btn>
+        </center>
+      </v-stepper-content>
+    </v-stepper-items>
+  </v-stepper>
+      </v-card>
+    </v-dialog>
+
+    
+
+    </div>
 </template>
 
 <script>
@@ -63,7 +197,9 @@ export default {
     
     data() {
         return {
-            AcercaDe: true
+            AcercaDe: true,
+            Instalar:false,
+             e1: 0
         }
     },
     computed: {

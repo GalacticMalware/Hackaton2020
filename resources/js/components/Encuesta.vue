@@ -117,10 +117,14 @@ export default {
        this.dialog = true;
        if(this.puntos>=3){
          this.puntos = 0
-         this.activo = false
+         //this.activo = false
        }
         this.puntos = 0
-         this.activo = false
+         this.dialog = false;
+        var link = this.$router.resolve({
+          path : '/Contactanos'
+        });
+        window.location = link.href
       }
        
     }

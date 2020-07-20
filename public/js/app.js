@@ -2010,6 +2010,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -2178,12 +2179,15 @@ __webpack_require__.r(__webpack_exports__);
       this.dialog = true;
 
       if (this.puntos >= 3) {
-        this.puntos = 0;
-        this.activo = false;
+        this.puntos = 0; //this.activo = false
       }
 
       this.puntos = 0;
-      this.activo = false;
+      this.dialog = false;
+      var link = this.$router.resolve({
+        path: '/Contactanos'
+      });
+      window.location = link.href;
     }
   }
 });
@@ -3259,6 +3263,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -3351,10 +3369,146 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      AcercaDe: true
+      AcercaDe: true,
+      Instalar: false,
+      e1: 0
     };
   },
   computed: {}
@@ -76410,24 +76564,6 @@ var render = function() {
                   _c("v-icon", [_vm._v("menu_book")])
                 ],
                 1
-              ),
-              _vm._v(" "),
-              _c(
-                "v-btn",
-                {
-                  attrs: { dark: "" },
-                  on: {
-                    click: function($event) {
-                      _vm.EncuestaActivar = true
-                    }
-                  }
-                },
-                [
-                  _c("span", [_vm._v("Test")]),
-                  _vm._v(" "),
-                  _c("v-icon", [_vm._v("sticky_note_2")])
-                ],
-                1
               )
             ],
             1
@@ -77025,13 +77161,11 @@ var render = function() {
   return _c(
     "div",
     [
-      _c("v-flex", { staticClass: "hidden-sm-and-up" }, [
-        _c("br"),
-        _vm._v(" "),
-        _c("br"),
-        _vm._v(" "),
-        _c("br")
-      ]),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
       _vm._v(" "),
       _c(
         "v-timeline",
@@ -78024,7 +78158,7 @@ var render = function() {
       _c(
         "v-layout",
         { attrs: { column: "", "justify-center": "", "align-center": "" } },
-        [_c("v-subheader", [_vm._v("Violentómetro")])],
+        [_c("v-subheader", [_vm._v("Violentrómetro")])],
         1
       ),
       _vm._v(" "),
@@ -78112,7 +78246,7 @@ var render = function() {
         [
           _c(
             "v-flex",
-            { attrs: { xs12: "", md11: "", lg9: "", xl9: "" } },
+            { attrs: { xs10: "", md9: "", lg9: "", xl9: "" } },
             [
               _c(
                 "v-card",
@@ -78207,7 +78341,7 @@ var render = function() {
                         [
                           _c("v-flex", { staticClass: "hidden-xs-only" }, [
                             _c("h3", { staticClass: "display-3" }, [
-                              _vm._v("¿Sabes lo que es un violentómetro?")
+                              _vm._v("¿Sabes lo que es un violentrómetro?")
                             ])
                           ]),
                           _vm._v(" "),
@@ -78218,7 +78352,7 @@ var render = function() {
                               _c("br"),
                               _vm._v(" "),
                               _c("font", { staticClass: "display-1" }, [
-                                _vm._v("¿Sabes lo que es un violentómetro?")
+                                _vm._v("¿Sabes lo que es un violentrómetro?")
                               ]),
                               _vm._v(" "),
                               _c("br"),
@@ -78230,7 +78364,7 @@ var render = function() {
                           _vm._v(" "),
                           _c("span", { staticClass: "subheading" }, [
                             _vm._v(
-                              "El Violentómetro es una herramienta de gran utilidad la cual permite a hombres y mujeres estar alerta, capacitadas (os) y/o atentas (os) para detectar y atender la violencia en cualquiera de sus tipos y modalidades a través de diferentes manifestaciones, resultando no solo benéfico para las instituciones educativas, sino también en los ámbitos familiar (relaciones de pareja) y laboral."
+                              "El Violentrómetro es una herramienta de gran utilidad la cual permite a hombres y mujeres estar alerta, capacitadas (os) y/o atentas (os) para detectar y atender la violencia en cualquiera de sus tipos y modalidades a través de diferentes manifestaciones, resultando no solo benéfico para las instituciones educativas, sino también en los ámbitos familiar (relaciones de pareja) y laboral."
                             )
                           ])
                         ],
@@ -78245,7 +78379,7 @@ var render = function() {
                         _c("br"),
                         _vm._v(" "),
                         _c("div", { staticClass: "title mb-3" }, [
-                          _vm._v("Ve los nievesl del Violentómetro")
+                          _vm._v("Ve los nievesl del Violentrómetro")
                         ])
                       ])
                     ],
@@ -78378,7 +78512,21 @@ var render = function() {
                       _vm._v(" "),
                       _c("br"),
                       _vm._v(" "),
-                      _c("v-divider", { staticClass: "my-3" })
+                      _c("v-divider", { staticClass: "my-3" }),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("center"),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("br")
                     ],
                     1
                   )
@@ -78399,6 +78547,20 @@ var render = function() {
           attrs: { xs: "", sm: "", md: "", lg: "", xl: "" }
         },
         [
+          _c("br"),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("center", [
+            _c("h4", { staticClass: "display-1" }, [
+              _vm._v("Tip : Acerca el cursor a la imagen.")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
           _c(
             "v-card",
             [
@@ -79415,6 +79577,30 @@ var render = function() {
                           )
                         ],
                         1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-btn",
+                        {
+                          attrs: { flat: "", color: "#ff6666" },
+                          nativeOn: {
+                            click: function($event) {
+                              _vm.Instalar = true
+                            }
+                          }
+                        },
+                        [
+                          _vm._v("Instala la APP"),
+                          _c(
+                            "v-icon",
+                            {
+                              staticStyle: { "margin-left": "10px" },
+                              attrs: { color: "pink" }
+                            },
+                            [_vm._v("smartphone")]
+                          )
+                        ],
+                        1
                       )
                     ],
                     1
@@ -79472,22 +79658,394 @@ var render = function() {
                 { attrs: { "justify-end": "" } },
                 [
                   _c(
-                    "v-btn",
+                    "v-menu",
                     {
-                      staticStyle: { "margin-right": "20px" },
-                      attrs: {
-                        flat: "",
-                        icon: "",
-                        large: "",
-                        color: "white--text",
-                        "router-link": "",
-                        to: { path: "/Contactanos" }
-                      }
+                      attrs: { "offset-y": "" },
+                      scopedSlots: _vm._u([
+                        {
+                          key: "activator",
+                          fn: function(ref) {
+                            var on = ref.on
+                            return [
+                              _c(
+                                "v-btn",
+                                _vm._g({ attrs: { flat: "", icon: "" } }, on),
+                                [
+                                  _c("v-icon", { attrs: { large: "" } }, [
+                                    _vm._v("more_vert")
+                                  ])
+                                ],
+                                1
+                              )
+                            ]
+                          }
+                        }
+                      ])
                     },
                     [
-                      _c("v-icon", { attrs: { large: "", color: "white" } }, [
-                        _vm._v("contact_mail")
-                      ])
+                      _vm._v(" "),
+                      _c(
+                        "v-list",
+                        [
+                          _c(
+                            "v-list-tile",
+                            {
+                              attrs: {
+                                "router-link": "",
+                                to: { path: "/Contactanos" }
+                              }
+                            },
+                            [
+                              _c(
+                                "v-list-tile-title",
+                                [
+                                  _vm._v("Contactanos "),
+                                  _c(
+                                    "v-icon",
+                                    { staticStyle: { "margin-left": "10px" } },
+                                    [_vm._v("contact_mail")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "v-list-tile",
+                            {
+                              nativeOn: {
+                                click: function($event) {
+                                  _vm.Instalar = true
+                                }
+                              }
+                            },
+                            [
+                              _c(
+                                "v-list-tile-title",
+                                [
+                                  _vm._v("Instalar App "),
+                                  _c(
+                                    "v-icon",
+                                    { staticStyle: { "margin-left": "10px" } },
+                                    [_vm._v("smartphone")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-dialog",
+        {
+          attrs: { width: "500", persistent: "" },
+          model: {
+            value: _vm.Instalar,
+            callback: function($$v) {
+              _vm.Instalar = $$v
+            },
+            expression: "Instalar"
+          }
+        },
+        [
+          _c(
+            "v-card",
+            [
+              _c(
+                "v-stepper",
+                {
+                  model: {
+                    value: _vm.e1,
+                    callback: function($$v) {
+                      _vm.e1 = $$v
+                    },
+                    expression: "e1"
+                  }
+                },
+                [
+                  _c(
+                    "v-stepper-header",
+                    [
+                      _c(
+                        "v-stepper-step",
+                        {
+                          attrs: {
+                            complete: _vm.e1 > 1,
+                            step: "1",
+                            color: "cyan"
+                          }
+                        },
+                        [_vm._v("Paso 1")]
+                      ),
+                      _vm._v(" "),
+                      _c("v-divider"),
+                      _vm._v(" "),
+                      _c(
+                        "v-stepper-step",
+                        {
+                          attrs: {
+                            complete: _vm.e1 > 2,
+                            step: "2",
+                            color: "cyan"
+                          }
+                        },
+                        [_vm._v("Paso 2")]
+                      ),
+                      _vm._v(" "),
+                      _c("v-divider"),
+                      _vm._v(" "),
+                      _c(
+                        "v-stepper-step",
+                        {
+                          attrs: {
+                            complete: _vm.e1 > 3,
+                            step: "3",
+                            color: "cyan"
+                          }
+                        },
+                        [_vm._v("Paso 3")]
+                      ),
+                      _vm._v(" "),
+                      _c("v-divider"),
+                      _vm._v(" "),
+                      _c(
+                        "v-stepper-step",
+                        { attrs: { step: "4", color: "cyan" } },
+                        [_vm._v("Paso 4")]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-stepper-items",
+                    [
+                      _c(
+                        "v-stepper-content",
+                        { attrs: { step: "1" } },
+                        [
+                          _c(
+                            "v-card",
+                            {
+                              staticClass: "mb-5",
+                              attrs: { color: "white", height: "200px" }
+                            },
+                            [
+                              _c("v-img", {
+                                attrs: {
+                                  "max-height": "180px",
+                                  src: "/img/instalar1.jpeg"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c(
+                                "center",
+                                [
+                                  _c(
+                                    "font",
+                                    { attrs: { size: "4" } },
+                                    [
+                                      _vm._v("Pulsamos el botón "),
+                                      _c("v-icon", [_vm._v("more_vert")])
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "center",
+                            [
+                              _c(
+                                "v-btn",
+                                {
+                                  staticClass: "white--text",
+                                  attrs: { color: "cyan" },
+                                  on: {
+                                    click: function($event) {
+                                      _vm.e1 = 2
+                                    }
+                                  }
+                                },
+                                [_vm._v("\n        Continuar\n      ")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-stepper-content",
+                        { attrs: { step: "2" } },
+                        [
+                          _c(
+                            "v-card",
+                            {
+                              staticClass: "mb-5",
+                              attrs: { color: "white", height: "200px" }
+                            },
+                            [
+                              _c("v-img", {
+                                attrs: {
+                                  "max-height": "200px",
+                                  src: "/img/instalar2.jpeg"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "center",
+                            [
+                              _c(
+                                "v-btn",
+                                {
+                                  staticClass: "white--text",
+                                  attrs: { color: "cyan" },
+                                  on: {
+                                    click: function($event) {
+                                      _vm.e1 = 3
+                                    }
+                                  }
+                                },
+                                [_vm._v("\n        Continuar\n      ")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-stepper-content",
+                        { attrs: { step: "3" } },
+                        [
+                          _c(
+                            "v-card",
+                            {
+                              staticClass: "mb-5",
+                              attrs: { color: "white", height: "200px" }
+                            },
+                            [
+                              _c("v-img", {
+                                attrs: {
+                                  "max-height": "200px",
+                                  src: "/img/instalar3.jpeg"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "center",
+                            [
+                              _c(
+                                "v-btn",
+                                {
+                                  staticClass: "white--text",
+                                  attrs: { color: "cyan" },
+                                  on: {
+                                    click: function($event) {
+                                      _vm.e1 = 4
+                                    }
+                                  }
+                                },
+                                [_vm._v("\n        Continuar\n      ")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-stepper-content",
+                        { attrs: { step: "4" } },
+                        [
+                          _c(
+                            "v-card",
+                            {
+                              staticClass: "mb-5",
+                              attrs: { color: "white", height: "200px" }
+                            },
+                            [
+                              _c("v-img", {
+                                attrs: {
+                                  "max-height": "150px",
+                                  src: "/img/instalar4.jpeg"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c(
+                                "center",
+                                { staticStyle: { "margin-top": "10px" } },
+                                [
+                                  _c(
+                                    "font",
+                                    { attrs: { size: "4" } },
+                                    [
+                                      _vm._v("Listo ya tienes la APP "),
+                                      _c("v-icon", [_vm._v("smartphone")])
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "center",
+                            [
+                              _c(
+                                "v-btn",
+                                {
+                                  staticClass: "white--text",
+                                  attrs: { color: "cyan" },
+                                  on: {
+                                    click: function($event) {
+                                      ;(_vm.e1 = 1), (_vm.Instalar = false)
+                                    }
+                                  }
+                                },
+                                [_vm._v("\n        Continuar\n      ")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
                     ],
                     1
                   )

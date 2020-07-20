@@ -1,7 +1,7 @@
 <template>
 <div>
 <v-layout justify-center>
- <v-flex xs12 md11 lg9 xl9>
+ <v-flex xs10 md9 lg9 xl9>
 <v-card flat>
 <v-card-text>
     
